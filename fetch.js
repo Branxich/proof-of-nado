@@ -4,9 +4,9 @@ import { writeFileSync, mkdirSync, existsSync, readFileSync } from 'fs';
 const API_KEY = process.env.TWITTERAPI_KEY;
 const BASE = 'https://api.twitterapi.io/twitter/tweet/advanced_search';
 
-// ── Диапазон: 20 мая 00:00 UTC → 26 мая 00:00 UTC (не включая 26-е) ──
+// ── Диапазон сбора ──
 const START_TS = Math.floor(new Date('2025-11-18T00:00:00Z').getTime() / 1000);
-const END_TS   = Math.floor(new Date('2026-01-01T00:00:00Z').getTime() / 1000);
+const END_TS   = Math.floor(new Date('2026-06-01T00:00:00Z').getTime() / 1000);
 
 const QUERY_BASE = `@nadoHQ -filter:replies`;
 
@@ -75,11 +75,21 @@ async function fetchWindow(sinceTs, untilTs) {
 }
 
 async function main() {
-  // Для разового сбора — всегда начинаем с чистого листа
-  const existing = {};
+  let existing = {};
   const seenIds = new Set();
 
-  console.log(`Fetching 2025-05-20 → 2025-05-25...`);
+  if (existsSync('data/leaderboard.json')) {
+    try {
+      const old = JSON.parse(readFileSync('data/leaderboard.json', 'utf8'));
+      (old.users || []).forEach(u => {
+        existing[u.handle.toLowerCase()] = u;
+        (u.topPosts || []).forEach(p => p.id && seenIds.add(p.id));
+      });
+      console.log(`Loaded ${Object.keys(existing).length} existing users`);
+    } catch(e) { console.log('Starting fresh'); }
+  }
+
+  console.log(`Fetching 2025-11-18 → 2026-05-31...`);
 
   const tweets = await fetchWindow(START_TS, END_TS);
   const relevant = tweets.filter(isRelevant);
@@ -138,7 +148,34 @@ async function main() {
     u.topPosts = u.topPosts.sort((a, b) => b.views - a.views).slice(0, 5);
   });
 
-  const userList = Object.values(fresh).sort((a, b) => b.views - a.views);
+  const merged = { ...existing };
+
+  Object.entries(fresh).forEach(([key, u]) => {
+    if (merged[key]) {
+      const old = merged[key];
+      merged[key] = {
+        ...old,
+        name:      u.name,
+        followers: u.followers,
+        avatar:    u.avatar,
+        views:    old.views    + u.views,
+        likes:    old.likes    + u.likes,
+        posts:    old.posts    + u.posts,
+        mentions: old.mentions + u.mentions,
+        cashtag:  old.cashtag  + u.cashtag,
+        keyword:  old.keyword  + u.keyword,
+        firstPost: parseTwitterTime(old.firstPost) < parseTwitterTime(u.firstPost) ? old.firstPost : u.firstPost,
+        lastPost:  parseTwitterTime(old.lastPost)  > parseTwitterTime(u.lastPost)  ? old.lastPost  : u.lastPost,
+        topPosts:  [...old.topPosts, ...u.topPosts]
+          .sort((a, b) => b.views - a.views)
+          .slice(0, 5)
+      };
+    } else {
+      merged[key] = u;
+    }
+  });
+
+  const userList = Object.values(merged).sort((a, b) => b.views - a.views);
   const totals = userList.reduce(
     (t, u) => ({ views: t.views + u.views, likes: t.likes + u.likes, posts: t.posts + u.posts }),
     { views: 0, likes: 0, posts: 0 }
