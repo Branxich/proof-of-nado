@@ -5,8 +5,8 @@ const API_KEY = process.env.TWITTERAPI_KEY;
 const BASE = 'https://api.twitterapi.io/twitter/tweet/advanced_search';
 
 // ── Диапазон: 20 мая 00:00 UTC → 26 мая 00:00 UTC (не включая 26-е) ──
-const START_TS = Math.floor(new Date('2025-01-01T00:00:00Z').getTime() / 1000);
-const END_TS   = Math.floor(new Date('2025-05-26T00:00:00Z').getTime() / 1000);
+const START_TS = Math.floor(new Date('2026-01-01T00:00:00Z').getTime() / 1000);
+const END_TS   = Math.floor(new Date('2026-05-26T00:00:00Z').getTime() / 1000);
 
 const QUERY_BASE = `@nadoHQ -filter:replies`;
 
