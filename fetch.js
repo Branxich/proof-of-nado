@@ -8,7 +8,7 @@ const BASE = 'https://api.twitterapi.io/twitter/tweet/advanced_search';
 const START_TS = Math.floor(new Date('2025-11-18T00:00:00Z').getTime() / 1000);
 const END_TS   = Math.floor(new Date('2026-06-01T00:00:00Z').getTime() / 1000);
 
-const QUERY_BASE = `@nadoHQ -filter:replies`;
+const QUERY_BASE = `@nadoHQ`;
 
 function parseTwitterTime(s) {
   return Math.floor(new Date(s).getTime() / 1000);
@@ -18,7 +18,6 @@ function isRelevant(tweet) {
   if (tweet.isRetweet) return false;
   if (tweet.text?.startsWith('RT @')) return false;
   if (tweet.retweeted_tweet) return false;
-  if (tweet.isReply) return false;
 
   const txt = (tweet.text || '').toLowerCase();
 
