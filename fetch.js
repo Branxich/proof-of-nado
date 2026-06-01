@@ -4,12 +4,9 @@ import { writeFileSync, mkdirSync, existsSync, readFileSync } from 'fs';
 const API_KEY = process.env.TWITTERAPI_KEY;
 const BASE = 'https://api.twitterapi.io/twitter/tweet/advanced_search';
 
-// Only yesterday
-const now = new Date();
-const todayMidnight = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
-const yesterdayMidnight = new Date(todayMidnight.getTime() - 86400000);
-const START_TS = Math.floor(yesterdayMidnight.getTime() / 1000);
-const END_TS   = Math.floor(todayMidnight.getTime() / 1000);
+// ── Диапазон: 20 мая 00:00 UTC → 26 мая 00:00 UTC (не включая 26-е) ──
+const START_TS = Math.floor(new Date('2025-05-20T00:00:00Z').getTime() / 1000);
+const END_TS   = Math.floor(new Date('2025-05-26T00:00:00Z').getTime() / 1000);
 
 const QUERY_BASE = `@nadoHQ -filter:replies`;
 
@@ -28,7 +25,7 @@ function isRelevant(tweet) {
   const hasMention = txt.includes('@nadohq');
   const hasCashtag = /\$nado\b/.test(txt);
   const hasUrl     = txt.includes('nado.xyz') || txt.includes('app.nado.xyz');
-  const hasNadoHQ = /\bnadohq\b/.test(txt);
+  const hasNadoHQ  = /\bnadohq\b/.test(txt);
 
   return hasMention || hasCashtag || hasUrl || hasNadoHQ;
 }
@@ -56,6 +53,8 @@ async function fetchWindow(sinceTs, untilTs) {
     const batch = data.tweets || [];
     calls++;
 
+    console.log(`  call ${calls}: got ${batch.length} tweets (until ${new Date(currentUntil * 1000).toISOString()})`);
+
     if (!batch.length) break;
 
     tweets.push(...batch);
@@ -76,27 +75,16 @@ async function fetchWindow(sinceTs, untilTs) {
 }
 
 async function main() {
-  let existing = {};
+  // Для разового сбора — всегда начинаем с чистого листа
+  const existing = {};
   const seenIds = new Set();
 
-  if (existsSync('data/leaderboard.json')) {
-    try {
-      const old = JSON.parse(readFileSync('data/leaderboard.json', 'utf8'));
-      (old.users || []).forEach(u => {
-        existing[u.handle.toLowerCase()] = u;
-        (u.topPosts || []).forEach(p => p.id && seenIds.add(p.id));
-      });
-      console.log(`Loaded ${Object.keys(existing).length} existing users`);
-    } catch(e) { console.log('Starting fresh'); }
-  }
-
-  const date = yesterdayMidnight.toISOString().slice(0, 10);
-  console.log(`Fetching ${date}...`);
+  console.log(`Fetching 2025-05-20 → 2025-05-25...`);
 
   const tweets = await fetchWindow(START_TS, END_TS);
   const relevant = tweets.filter(isRelevant);
 
-  console.log(`${tweets.length} raw → ${relevant.length} relevant`);
+  console.log(`\n${tweets.length} raw → ${relevant.length} relevant`);
 
   const fresh = {};
 
@@ -130,7 +118,7 @@ async function main() {
     u.likes += tweet.likeCount || 0;
     u.posts += 1;
 
-    if (txt.includes('@nadohq'))                            u.mentions++;
+    if (txt.includes('@nadohq'))                             u.mentions++;
     if (/\$nado\b/.test(txt))                                u.cashtag++;
     if (txt.includes('nado.xyz') || /\bnadohq\b/.test(txt)) u.keyword++;
 
@@ -150,36 +138,9 @@ async function main() {
     u.topPosts = u.topPosts.sort((a, b) => b.views - a.views).slice(0, 5);
   });
 
-  const merged = { ...existing };
-
-  Object.entries(fresh).forEach(([key, u]) => {
-    if (merged[key]) {
-      const old = merged[key];
-      merged[key] = {
-        ...old,
-        name:      u.name,
-        followers: u.followers,
-        avatar:    u.avatar,
-        views:    old.views    + u.views,
-        likes:    old.likes    + u.likes,
-        posts:    old.posts    + u.posts,
-        mentions: old.mentions + u.mentions,
-        cashtag:  old.cashtag  + u.cashtag,
-        keyword:  old.keyword  + u.keyword,
-        firstPost: parseTwitterTime(old.firstPost) < parseTwitterTime(u.firstPost) ? old.firstPost : u.firstPost,
-        lastPost:  parseTwitterTime(old.lastPost)  > parseTwitterTime(u.lastPost)  ? old.lastPost  : u.lastPost,
-        topPosts:  [...old.topPosts, ...u.topPosts]
-          .sort((a, b) => b.views - a.views)
-          .slice(0, 5)
-      };
-    } else {
-      merged[key] = u;
-    }
-  });
-
-  const userList = Object.values(merged).sort((a, b) => b.views - a.views);
+  const userList = Object.values(fresh).sort((a, b) => b.views - a.views);
   const totals = userList.reduce(
-    (t, u) => ({ views: t.views+u.views, likes: t.likes+u.likes, posts: t.posts+u.posts }),
+    (t, u) => ({ views: t.views + u.views, likes: t.likes + u.likes, posts: t.posts + u.posts }),
     { views: 0, likes: 0, posts: 0 }
   );
 
@@ -190,7 +151,7 @@ async function main() {
     users: userList
   }, null, 2));
 
-  console.log(`✓ Done: ${userList.length} users, ${totals.posts} posts, ${totals.views} views`);
+  console.log(`\n✓ Done: ${userList.length} users, ${totals.posts} posts, ${totals.views} views`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
