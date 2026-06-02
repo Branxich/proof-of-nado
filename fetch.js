@@ -32,32 +32,52 @@ function isRelevant(tweet) {
 async function fetchWindow(sinceTs, untilTs) {
   const tweets = [];
   let currentUntil = untilTs;
+  let emptyStreak = 0;
+  const MAX_EMPTY_STREAK = 10; // максимум 10 пустых ответов подряд прежде чем сдаться
 
   while (currentUntil > sinceTs) {
     const query = `${QUERY_BASE} since_time:${sinceTs} until_time:${currentUntil}`;
     const params = new URLSearchParams({ query, queryType: 'Latest' });
 
-    const r = await fetch(`${BASE}?${params}`, {
-      headers: { 'X-API-Key': API_KEY }
-    });
+    let r;
+    try {
+      r = await fetch(`${BASE}?${params}`, {
+        headers: { 'X-API-Key': API_KEY }
+      });
+    } catch(e) {
+      console.error(`Fetch error: ${e.message}, retrying in 5s...`);
+      await new Promise(r => setTimeout(r, 5000));
+      continue;
+    }
 
     if (!r.ok) {
-      console.error(`API error ${r.status}: ${await r.text()}`);
-      break;
+      const text = await r.text();
+      console.error(`API error ${r.status}: ${text}, retrying in 5s...`);
+      await new Promise(r => setTimeout(r, 5000));
+      continue;
     }
 
     const data = await r.json();
     const batch = data.tweets || [];
 
-    console.log(`  got ${batch.length} tweets (until ${new Date(currentUntil * 1000).toISOString()})`);
+    console.log(`  got ${batch.length} tweets (until ${new Date(currentUntil * 1000).toISOString().slice(0,10)})`);
 
     if (!batch.length) {
-      // пустой ответ — сдвигаемся на сутки назад и продолжаем
-      currentUntil -= 86400;
+      emptyStreak++;
+      if (emptyStreak >= MAX_EMPTY_STREAK) {
+        // Много пустых ответов подряд — прыгаем сразу на неделю назад
+        console.log(`  ${MAX_EMPTY_STREAK} empty responses, jumping back 7 days...`);
+        currentUntil -= 86400 * 7;
+        emptyStreak = 0;
+      } else {
+        // Сдвигаемся на сутки назад
+        currentUntil -= 86400;
+      }
       await new Promise(r => setTimeout(r, 300));
       continue;
     }
 
+    emptyStreak = 0;
     tweets.push(...batch);
 
     const earliest = Math.min(...batch.map(t => parseTwitterTime(t.createdAt)));
@@ -84,11 +104,11 @@ async function main() {
         existing[u.handle.toLowerCase()] = u;
         (u.topPosts || []).forEach(p => p.id && seenIds.add(p.id));
       });
-      console.log(`Loaded ${Object.keys(existing).length} existing users`);
+      console.log(`Loaded ${Object.keys(existing).length} existing users, ${seenIds.size} known tweet IDs`);
     } catch(e) { console.log('Starting fresh'); }
   }
 
-  // Прогресс храним отдельно чтобы не зависеть от firstPost
+  // Прогресс хранится отдельно
   let effectiveEnd = END_TS;
   if (existsSync('data/progress.json')) {
     try {
@@ -199,7 +219,6 @@ async function main() {
 
   mkdirSync('data', { recursive: true });
 
-  // Сохраняем прогресс — до куда дошли
   writeFileSync('data/progress.json', JSON.stringify({
     lastUntil: START_TS,
     updatedAt: new Date().toISOString()
