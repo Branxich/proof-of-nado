@@ -33,7 +33,7 @@ async function fetchWindow(sinceTs, untilTs) {
   const tweets = [];
   let currentUntil = untilTs;
   let calls = 0;
-  const MAX_CALLS = 200;
+  const MAX_CALLS = Infinity;
 
   while (currentUntil > sinceTs && calls < MAX_CALLS) {
     const query = `${QUERY_BASE} since_time:${sinceTs} until_time:${currentUntil}`;
@@ -65,7 +65,7 @@ async function fetchWindow(sinceTs, untilTs) {
       break;
     }
 
-    if (batch.length < 20) break;
+    if (batch.length < 3) break;
 
     await new Promise(r => setTimeout(r, 300));
   }
@@ -88,9 +88,17 @@ async function main() {
     } catch(e) { console.log('Starting fresh'); }
   }
 
-  console.log(`Fetching 2025-11-18 → 2026-05-31...`);
+  // Продолжаем с того места где остановились
+  let effectiveEnd = END_TS;
+  if (Object.keys(existing).length > 0) {
+    const allFirstPosts = Object.values(existing).map(u => parseTwitterTime(u.firstPost));
+    effectiveEnd = Math.min(...allFirstPosts) - 1;
+    console.log(`Resuming from ${new Date(effectiveEnd * 1000).toISOString()}`);
+  }
 
-  const tweets = await fetchWindow(START_TS, END_TS);
+  console.log(`Fetching ${new Date(START_TS * 1000).toISOString().slice(0,10)} → ${new Date(effectiveEnd * 1000).toISOString().slice(0,10)}...`);
+
+  const tweets = await fetchWindow(START_TS, effectiveEnd);
   const relevant = tweets.filter(isRelevant);
 
   console.log(`\n${tweets.length} raw → ${relevant.length} relevant`);
