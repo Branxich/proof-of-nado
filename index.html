@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/svg+xml" href="logo.svg">
-<link rel="shortcut icon" href="logo.svg">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Proof of NADO</title>
@@ -1138,9 +1136,8 @@ function findInLeaderboard() {
 
   const sorted = [...leaderboardData].sort((a,b) => b[currentSort] - a[currentSort]);
   const idx = sorted.findIndex(u => u.handle.toLowerCase() === profileData.handle.toLowerCase());
-  if (idx >= 25 && !showAll) {
-    visibleCount = Math.max(visibleCount, idx + 25);
-    document.getElementById('showMoreBtn').textContent = 'Show less ↑';
+  if (idx >= visibleCount) {
+    visibleCount = idx + 25;
     renderLeaderboard();
   }
 
