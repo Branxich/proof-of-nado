@@ -32,10 +32,8 @@ function isRelevant(tweet) {
 async function fetchWindow(sinceTs, untilTs) {
   const tweets = [];
   let currentUntil = untilTs;
-  let calls = 0;
-  const MAX_CALLS = Infinity;
 
-  while (currentUntil > sinceTs && calls < MAX_CALLS) {
+  while (currentUntil > sinceTs) {
     const query = `${QUERY_BASE} since_time:${sinceTs} until_time:${currentUntil}`;
     const params = new URLSearchParams({ query, queryType: 'Latest' });
 
@@ -50,11 +48,15 @@ async function fetchWindow(sinceTs, untilTs) {
 
     const data = await r.json();
     const batch = data.tweets || [];
-    calls++;
 
-    console.log(`  call ${calls}: got ${batch.length} tweets (until ${new Date(currentUntil * 1000).toISOString()})`);
+    console.log(`  got ${batch.length} tweets (until ${new Date(currentUntil * 1000).toISOString()})`);
 
-    if (!batch.length) break;
+    if (!batch.length) {
+      // пустой ответ — сдвигаемся на сутки назад и продолжаем
+      currentUntil -= 86400;
+      await new Promise(r => setTimeout(r, 300));
+      continue;
+    }
 
     tweets.push(...batch);
 
@@ -62,10 +64,8 @@ async function fetchWindow(sinceTs, untilTs) {
     if (earliest < currentUntil) {
       currentUntil = earliest - 1;
     } else {
-      break;
+      currentUntil -= 86400;
     }
-
-    if (batch.length < 3) break;
 
     await new Promise(r => setTimeout(r, 300));
   }
@@ -88,12 +88,21 @@ async function main() {
     } catch(e) { console.log('Starting fresh'); }
   }
 
-  // Продолжаем с того места где остановились
+  // Прогресс храним отдельно чтобы не зависеть от firstPost
   let effectiveEnd = END_TS;
-  if (Object.keys(existing).length > 0) {
-    const allFirstPosts = Object.values(existing).map(u => parseTwitterTime(u.firstPost));
-    effectiveEnd = Math.min(...allFirstPosts) - 1;
-    console.log(`Resuming from ${new Date(effectiveEnd * 1000).toISOString()}`);
+  if (existsSync('data/progress.json')) {
+    try {
+      const p = JSON.parse(readFileSync('data/progress.json', 'utf8'));
+      if (p.lastUntil && p.lastUntil > 0 && isFinite(p.lastUntil)) {
+        effectiveEnd = p.lastUntil;
+        console.log(`Resuming from ${new Date(effectiveEnd * 1000).toISOString()}`);
+      }
+    } catch(e) {}
+  }
+
+  if (effectiveEnd <= START_TS) {
+    console.log('✓ Already fully collected, nothing to do.');
+    return;
   }
 
   console.log(`Fetching ${new Date(START_TS * 1000).toISOString().slice(0,10)} → ${new Date(effectiveEnd * 1000).toISOString().slice(0,10)}...`);
@@ -189,6 +198,13 @@ async function main() {
   );
 
   mkdirSync('data', { recursive: true });
+
+  // Сохраняем прогресс — до куда дошли
+  writeFileSync('data/progress.json', JSON.stringify({
+    lastUntil: START_TS,
+    updatedAt: new Date().toISOString()
+  }, null, 2));
+
   writeFileSync('data/leaderboard.json', JSON.stringify({
     updatedAt: new Date().toISOString(),
     totals: { ...totals, users: userList.length },
