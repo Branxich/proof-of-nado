@@ -4,9 +4,12 @@ import { writeFileSync, mkdirSync, existsSync, readFileSync } from 'fs';
 const API_KEY = process.env.TWITTERAPI_KEY;
 const BASE = 'https://api.twitterapi.io/twitter/tweet/advanced_search';
 
-// ── Диапазон сбора ──
-const START_TS = Math.floor(new Date('2025-11-18T00:00:00Z').getTime() / 1000);
-const END_TS   = Math.floor(new Date('2026-06-01T00:00:00Z').getTime() / 1000);
+// ── Вчерашний день ──
+const now = new Date();
+const todayMidnight = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+const yesterdayMidnight = new Date(todayMidnight.getTime() - 86400000);
+const START_TS = Math.floor(yesterdayMidnight.getTime() / 1000);
+const END_TS   = Math.floor(todayMidnight.getTime() / 1000);
 
 const QUERY_BASE = `@nadoHQ`;
 
@@ -33,7 +36,7 @@ async function fetchWindow(sinceTs, untilTs) {
   const tweets = [];
   let currentUntil = untilTs;
   let emptyStreak = 0;
-  const MAX_EMPTY_STREAK = 10; // максимум 10 пустых ответов подряд прежде чем сдаться
+  const MAX_EMPTY_STREAK = 10;
 
   while (currentUntil > sinceTs) {
     const query = `${QUERY_BASE} since_time:${sinceTs} until_time:${currentUntil}`;
@@ -60,17 +63,15 @@ async function fetchWindow(sinceTs, untilTs) {
     const data = await r.json();
     const batch = data.tweets || [];
 
-    console.log(`  got ${batch.length} tweets (until ${new Date(currentUntil * 1000).toISOString().slice(0,10)})`);
+    console.log(`  got ${batch.length} tweets (until ${new Date(currentUntil * 1000).toISOString().slice(0, 10)})`);
 
     if (!batch.length) {
       emptyStreak++;
       if (emptyStreak >= MAX_EMPTY_STREAK) {
-        // Много пустых ответов подряд — прыгаем сразу на неделю назад
         console.log(`  ${MAX_EMPTY_STREAK} empty responses, jumping back 7 days...`);
         currentUntil -= 86400 * 7;
         emptyStreak = 0;
       } else {
-        // Сдвигаемся на сутки назад
         currentUntil -= 86400;
       }
       await new Promise(r => setTimeout(r, 300));
@@ -108,26 +109,10 @@ async function main() {
     } catch(e) { console.log('Starting fresh'); }
   }
 
-  // Прогресс хранится отдельно
-  let effectiveEnd = END_TS;
-  if (existsSync('data/progress.json')) {
-    try {
-      const p = JSON.parse(readFileSync('data/progress.json', 'utf8'));
-      if (p.lastUntil && p.lastUntil > 0 && isFinite(p.lastUntil)) {
-        effectiveEnd = p.lastUntil;
-        console.log(`Resuming from ${new Date(effectiveEnd * 1000).toISOString()}`);
-      }
-    } catch(e) {}
-  }
+  const date = yesterdayMidnight.toISOString().slice(0, 10);
+  console.log(`Fetching ${date}...`);
 
-  if (effectiveEnd <= START_TS) {
-    console.log('✓ Already fully collected, nothing to do.');
-    return;
-  }
-
-  console.log(`Fetching ${new Date(START_TS * 1000).toISOString().slice(0,10)} → ${new Date(effectiveEnd * 1000).toISOString().slice(0,10)}...`);
-
-  const tweets = await fetchWindow(START_TS, effectiveEnd);
+  const tweets = await fetchWindow(START_TS, END_TS);
   const relevant = tweets.filter(isRelevant);
 
   console.log(`\n${tweets.length} raw → ${relevant.length} relevant`);
@@ -218,12 +203,6 @@ async function main() {
   );
 
   mkdirSync('data', { recursive: true });
-
-  writeFileSync('data/progress.json', JSON.stringify({
-    lastUntil: START_TS,
-    updatedAt: new Date().toISOString()
-  }, null, 2));
-
   writeFileSync('data/leaderboard.json', JSON.stringify({
     updatedAt: new Date().toISOString(),
     totals: { ...totals, users: userList.length },
