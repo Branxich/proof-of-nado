@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link rel="icon" type="image/svg+xml" href="logo.svg">
-<link rel="shortcut icon" href="logo.svg">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Proof of NADO</title>
@@ -1020,7 +1018,7 @@ function renderHighlights() {
 
 function renderLeaderboard() {
   renderHighlights();
-  const sorted = [...leaderboardData].sort((a,b) => b[currentSort] - a[currentSort]);
+  const sorted = [...leaderboardData].filter(u => u.views >= 100).sort((a,b) => b[currentSort] - a[currentSort]);
   if (!sorted.length) { renderEmpty('No data yet. Check back soon.'); return; }
 
   const visible = showAll ? sorted : sorted.slice(0, 25);
