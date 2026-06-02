@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/svg+xml" href="logo.svg">
-<link rel="shortcut icon" href="logo.svg">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Proof of NADO</title>
@@ -885,10 +883,12 @@ let currentPodium = 'views';
 let leaderboardData = [];
 let profileData = null;
 let isLoading = true;
-let visibleCount = 50;
+let showAll = false;
 
 function toggleShowAll() {
-  visibleCount += 50;
+  showAll = !showAll;
+  const btn = document.getElementById('showMoreBtn');
+  btn.textContent = showAll ? 'Show less ↑' : 'Show all users ↓';
   renderLeaderboard();
 }
 
@@ -1021,12 +1021,10 @@ function renderLeaderboard() {
   const sorted = [...leaderboardData].sort((a,b) => b[currentSort] - a[currentSort]);
   if (!sorted.length) { renderEmpty('No data yet. Check back soon.'); return; }
 
-  const visible = sorted.slice(0, visibleCount);
+  const visible = showAll ? sorted : sorted.slice(0, 25);
   const showMoreWrap = document.getElementById('showMoreWrap');
-  const btn = document.getElementById('showMoreBtn');
-  if (sorted.length > visibleCount) {
+  if (sorted.length > 25) {
     showMoreWrap.style.display = 'block';
-    btn.textContent = `Load more ↓ (${sorted.length - visibleCount} left)`;
   } else {
     showMoreWrap.style.display = 'none';
   }
@@ -1138,8 +1136,9 @@ function findInLeaderboard() {
 
   const sorted = [...leaderboardData].sort((a,b) => b[currentSort] - a[currentSort]);
   const idx = sorted.findIndex(u => u.handle.toLowerCase() === profileData.handle.toLowerCase());
-  if (idx >= visibleCount) {
-    visibleCount = idx + 25;
+  if (idx >= 25 && !showAll) {
+    showAll = true;
+    document.getElementById('showMoreBtn').textContent = 'Show less ↑';
     renderLeaderboard();
   }
 
