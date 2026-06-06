@@ -905,7 +905,7 @@ function parseTwitterTime(s) {
 async function loadData() {
   isLoading = true;
   try {
-    const r = await fetch('data/leaderboard.json?t=' + Date.now());
+    const r = await fetch('https://raw.githubusercontent.com/Branxich/proof-of-nado/main/data/leaderboard.json?t=' + Date.now());
     if (!r.ok) throw new Error('not found');
     const d = await r.json();
     leaderboardData = d.users || [];
