@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-07-23T08:39:17.842Z",
+  "updatedAt": "2026-07-24T08:34:59.146Z",
   "totals": {
-    "views": 19072186,
-    "likes": 175418,
-    "posts": 71507,
-    "users": 17538
+    "views": 19072858,
+    "likes": 175436,
+    "posts": 71515,
+    "users": 17539
   },
   "users": [
     {
       "id": "398135866",
       "name": "Branxi",
       "handle": "OG_Branxi",
-      "followers": 2677,
+      "followers": 2730,
       "avatar": "https://pbs.twimg.com/profile_images/1991018502233468928/KXj4h8YF_normal.jpg",
-      "views": 1258403,
-      "likes": 13026,
-      "posts": 948,
-      "mentions": 948,
+      "views": 1258565,
+      "likes": 13029,
+      "posts": 949,
+      "mentions": 949,
       "cashtag": 0,
-      "keyword": 948,
+      "keyword": 949,
       "firstPost": "Thu Dec 25 16:39:38 +0000 2025",
-      "lastPost": "Sun Jul 19 12:12:27 +0000 2026",
+      "lastPost": "Thu Jul 23 06:45:18 +0000 2026",
       "topPosts": [
         {
           "text": "point prices right now\nbased on docs + OTC + my estimates\n\n@nadoHQ ~$3\ntotal ~43m points if farming until end of Q3, $INK fdv $1.5b, 8% allocation to Nado users\n\n@edgeX_exchange ~$20\ntotal ~30m points, fdv $2b, 30% airdrop\n\n@variational_io ~$20\ntotal ~9.3m points if farming until end of Q3, fdv $600m, 30% airdrop (calculations might have lower % drop but higher fdv, anyway I think price around $20)\n\n@tread_fi ~$11\ntotal ~0.28m points, fdv $200m, 15% airdrop\n\n@01Exchange ~$6\ntotal 10M points, fdv $400m, 15% airdrop allocation\n\n@extendedapp ~$2\ntotal ~77m points if farming continues until end of Q3, fdv $500m, 30% airdrop\n\n@grvt_io ~$20\ntotal ~7.7m points, fdv $700m, 22% airdrop\n\n@pacifica_fi ~$0.2\ntotal ~600m points, fdv $600m, 20% airdrop\n\n@etherealdex ~$0.01\njust a guess",
@@ -7126,6 +7126,58 @@
       ]
     },
     {
+      "id": "1069751383",
+      "name": "Chat Finance",
+      "handle": "chatfinances",
+      "followers": 2245,
+      "avatar": "https://pbs.twimg.com/profile_images/1967272472438566912/kpwVDzym_normal.jpg",
+      "views": 19044,
+      "likes": 68,
+      "posts": 88,
+      "mentions": 88,
+      "cashtag": 0,
+      "keyword": 88,
+      "firstPost": "Thu Nov 20 19:08:21 +0000 2025",
+      "lastPost": "Thu Jul 23 02:06:03 +0000 2026",
+      "topPosts": [
+        {
+          "text": "@nadoHQ I got 13 million in volume so far on nado and I get 1 referral to share for each 1 million of volume\n\nFollow and DM me if you need a referral code\n\nFor traders only, don't DM if you don't plan on trading https://t.co/mjVMPAX28Q",
+          "id": "1999375844695830951",
+          "url": "https://x.com/chatfinances/status/1999375844695830951",
+          "views": 1256,
+          "likes": 4
+        },
+        {
+          "text": "@nadoHQ I got $11 million in trade volume on Nado and have 4 extra referral codes up for grabs. Only want to allocate these Nado Referral codes to real traders\n\nFollow me and DM me for referral code. Screenshot of previous trade volume get priority https://t.co/XdtDCTkLuQ",
+          "id": "1999141885265260915",
+          "url": "https://x.com/chatfinances/status/1999141885265260915",
+          "views": 928,
+          "likes": 4
+        },
+        {
+          "text": "@nadoHQ I got 30 million in trading volume. Use my referral if you want an extra boost to your points: \n\nhttps://t.co/brLksgWmiq https://t.co/14u4a8Q7kz",
+          "id": "2004630645600113105",
+          "url": "https://x.com/chatfinances/status/2004630645600113105",
+          "views": 881,
+          "likes": 2
+        },
+        {
+          "text": "@nadoHQ Generated $56 million in volume and Rank #38. Use my nado referral code if you want a multiplier on points\n\nFor traders only\n\nhttps://t.co/brLksgWmiq https://t.co/gukFUyRjnz",
+          "id": "2018549822085795927",
+          "url": "https://x.com/chatfinances/status/2018549822085795927",
+          "views": 816,
+          "likes": 3
+        },
+        {
+          "text": "@nadoHQ My referrals have generated over $87 million in volume and rank near the top of the Nado Points leaderboard\n\nUse code if you want to join and get a multiplier on your points\n\nhttps://t.co/brLksgVOsS https://t.co/tr4CxJLXDh",
+          "id": "2030006884065816622",
+          "url": "https://x.com/chatfinances/status/2030006884065816622",
+          "views": 800,
+          "likes": 2
+        }
+      ]
+    },
+    {
       "id": "3393398729",
       "name": "liwikruk",
       "handle": "liwikruk",
@@ -7174,58 +7226,6 @@
           "url": "https://x.com/liwikruk/status/2013931236910047363",
           "views": 575,
           "likes": 0
-        }
-      ]
-    },
-    {
-      "id": "1069751383",
-      "name": "Chat Finance",
-      "handle": "chatfinances",
-      "followers": 2246,
-      "avatar": "https://pbs.twimg.com/profile_images/1967272472438566912/kpwVDzym_normal.jpg",
-      "views": 19004,
-      "likes": 68,
-      "posts": 87,
-      "mentions": 87,
-      "cashtag": 0,
-      "keyword": 87,
-      "firstPost": "Thu Nov 20 19:08:21 +0000 2025",
-      "lastPost": "Tue Jul 21 17:57:08 +0000 2026",
-      "topPosts": [
-        {
-          "text": "@nadoHQ I got 13 million in volume so far on nado and I get 1 referral to share for each 1 million of volume\n\nFollow and DM me if you need a referral code\n\nFor traders only, don't DM if you don't plan on trading https://t.co/mjVMPAX28Q",
-          "id": "1999375844695830951",
-          "url": "https://x.com/chatfinances/status/1999375844695830951",
-          "views": 1256,
-          "likes": 4
-        },
-        {
-          "text": "@nadoHQ I got $11 million in trade volume on Nado and have 4 extra referral codes up for grabs. Only want to allocate these Nado Referral codes to real traders\n\nFollow me and DM me for referral code. Screenshot of previous trade volume get priority https://t.co/XdtDCTkLuQ",
-          "id": "1999141885265260915",
-          "url": "https://x.com/chatfinances/status/1999141885265260915",
-          "views": 928,
-          "likes": 4
-        },
-        {
-          "text": "@nadoHQ I got 30 million in trading volume. Use my referral if you want an extra boost to your points: \n\nhttps://t.co/brLksgWmiq https://t.co/14u4a8Q7kz",
-          "id": "2004630645600113105",
-          "url": "https://x.com/chatfinances/status/2004630645600113105",
-          "views": 881,
-          "likes": 2
-        },
-        {
-          "text": "@nadoHQ Generated $56 million in volume and Rank #38. Use my nado referral code if you want a multiplier on points\n\nFor traders only\n\nhttps://t.co/brLksgWmiq https://t.co/gukFUyRjnz",
-          "id": "2018549822085795927",
-          "url": "https://x.com/chatfinances/status/2018549822085795927",
-          "views": 816,
-          "likes": 3
-        },
-        {
-          "text": "@nadoHQ My referrals have generated over $87 million in volume and rank near the top of the Nado Points leaderboard\n\nUse code if you want to join and get a multiplier on your points\n\nhttps://t.co/brLksgVOsS https://t.co/tr4CxJLXDh",
-          "id": "2030006884065816622",
-          "url": "https://x.com/chatfinances/status/2030006884065816622",
-          "views": 800,
-          "likes": 2
         }
       ]
     },
@@ -11322,6 +11322,58 @@
       ]
     },
     {
+      "id": "804653900666114048",
+      "name": "Stinson 🫟",
+      "handle": "sparrowcaptain0",
+      "followers": 608,
+      "avatar": "https://pbs.twimg.com/profile_images/1995538986748510209/MB5Bhm1A_normal.jpg",
+      "views": 11877,
+      "likes": 151,
+      "posts": 180,
+      "mentions": 180,
+      "cashtag": 0,
+      "keyword": 180,
+      "firstPost": "Tue Nov 18 17:04:04 +0000 2025",
+      "lastPost": "Thu Jul 23 13:56:59 +0000 2026",
+      "topPosts": [
+        {
+          "text": "@nadoHQ Anyone need a code dm me !",
+          "id": "2011726065895694609",
+          "url": "https://x.com/sparrowcaptain0/status/2011726065895694609",
+          "views": 1235,
+          "likes": 3
+        },
+        {
+          "text": "Use @nadoHQ or cry later \n$INK",
+          "id": "2055918616176992435",
+          "url": "https://x.com/sparrowcaptain0/status/2055918616176992435",
+          "views": 708,
+          "likes": 11
+        },
+        {
+          "text": "I might not be $ANSEM but I’ll keep pushing $INK \nDay 5 $ANITA at 630k MC the official mascot of $INK BY @krakenfx \nDon’t forget : \n@nadoHQ = $INK \n@tydrohq = $INK \n@krakenpro = $INK \nink szn is coming 😉 https://t.co/YgoHF7mr2m",
+          "id": "2077774657415987277",
+          "url": "https://x.com/sparrowcaptain0/status/2077774657415987277",
+          "views": 584,
+          "likes": 18
+        },
+        {
+          "text": "how to answer this if you don't know 👇\n1- @nadoHQ Perp Dex \n2- @tydrohq Lending, Borrowing\n3- @krakenpro Deposit , Trade , Leverage, Yield\n$INK szn 💰",
+          "id": "2052387158598545916",
+          "url": "https://x.com/sparrowcaptain0/status/2052387158598545916",
+          "views": 521,
+          "likes": 15
+        },
+        {
+          "text": "I might not be ansem but i'll keep pushing and bull posting  \nDay 2 $ANITA at 900k MC the official mascot of  by @krakenfx \n🚨ICYMI :\nYou can deposit @xStocksFi  on @nadoHQ to earn a 25% xPoints multiplier and market interest no trading required \nYou can use your Xstocks as collateral and earn xstocks points + nado points 2in1 \n(ref link 💜)https://t.co/7J9mDSUUkS\n\n♥️like \n🔁retweet\n$INK szn loading",
+          "id": "2076664224894370056",
+          "url": "https://x.com/sparrowcaptain0/status/2076664224894370056",
+          "views": 495,
+          "likes": 12
+        }
+      ]
+    },
+    {
       "id": "1260898749590597634",
       "name": "neko",
       "handle": "kasoutuu",
@@ -11439,58 +11491,6 @@
           "url": "https://x.com/Definews_Info/status/2015386668396601676",
           "views": 2042,
           "likes": 2
-        }
-      ]
-    },
-    {
-      "id": "804653900666114048",
-      "name": "Stinson 🫟",
-      "handle": "sparrowcaptain0",
-      "followers": 607,
-      "avatar": "https://pbs.twimg.com/profile_images/1995538986748510209/MB5Bhm1A_normal.jpg",
-      "views": 11545,
-      "likes": 139,
-      "posts": 179,
-      "mentions": 179,
-      "cashtag": 0,
-      "keyword": 179,
-      "firstPost": "Tue Nov 18 17:04:04 +0000 2025",
-      "lastPost": "Thu Jul 16 15:17:36 +0000 2026",
-      "topPosts": [
-        {
-          "text": "@nadoHQ Anyone need a code dm me !",
-          "id": "2011726065895694609",
-          "url": "https://x.com/sparrowcaptain0/status/2011726065895694609",
-          "views": 1235,
-          "likes": 3
-        },
-        {
-          "text": "Use @nadoHQ or cry later \n$INK",
-          "id": "2055918616176992435",
-          "url": "https://x.com/sparrowcaptain0/status/2055918616176992435",
-          "views": 708,
-          "likes": 11
-        },
-        {
-          "text": "I might not be $ANSEM but I’ll keep pushing $INK \nDay 5 $ANITA at 630k MC the official mascot of $INK BY @krakenfx \nDon’t forget : \n@nadoHQ = $INK \n@tydrohq = $INK \n@krakenpro = $INK \nink szn is coming 😉 https://t.co/YgoHF7mr2m",
-          "id": "2077774657415987277",
-          "url": "https://x.com/sparrowcaptain0/status/2077774657415987277",
-          "views": 584,
-          "likes": 18
-        },
-        {
-          "text": "how to answer this if you don't know 👇\n1- @nadoHQ Perp Dex \n2- @tydrohq Lending, Borrowing\n3- @krakenpro Deposit , Trade , Leverage, Yield\n$INK szn 💰",
-          "id": "2052387158598545916",
-          "url": "https://x.com/sparrowcaptain0/status/2052387158598545916",
-          "views": 521,
-          "likes": 15
-        },
-        {
-          "text": "I might not be ansem but i'll keep pushing and bull posting  \nDay 2 $ANITA at 900k MC the official mascot of  by @krakenfx \n🚨ICYMI :\nYou can deposit @xStocksFi  on @nadoHQ to earn a 25% xPoints multiplier and market interest no trading required \nYou can use your Xstocks as collateral and earn xstocks points + nado points 2in1 \n(ref link 💜)https://t.co/7J9mDSUUkS\n\n♥️like \n🔁retweet\n$INK szn loading",
-          "id": "2076664224894370056",
-          "url": "https://x.com/sparrowcaptain0/status/2076664224894370056",
-          "views": 495,
-          "likes": 12
         }
       ]
     },
@@ -23631,6 +23631,58 @@
       ]
     },
     {
+      "id": "715540860",
+      "name": "Alex",
+      "handle": "wasabu0x",
+      "followers": 169,
+      "avatar": "https://pbs.twimg.com/profile_images/2059217985756348416/Gokl-h9B_normal.jpg",
+      "views": 4428,
+      "likes": 44,
+      "posts": 31,
+      "mentions": 31,
+      "cashtag": 0,
+      "keyword": 31,
+      "firstPost": "Sun Mar 08 03:21:05 +0000 2026",
+      "lastPost": "Thu Jul 23 10:23:17 +0000 2026",
+      "topPosts": [
+        {
+          "text": "Cutting the noise.\n\nThese are the most alpha plays right now (no token yet). Best perps to park your attention and farm airdrop points on:\n\n- Trade[XYZ] @tradexyz (no points)\n- Variational @variational_io \n- Nado @nadoHQ \n- Pacifica @pacifica_fi",
+          "id": "2054790694024384782",
+          "url": "https://x.com/wasabu0x/status/2054790694024384782",
+          "views": 1227,
+          "likes": 5
+        },
+        {
+          "text": "@capy_onchain @variational_io @grvt_io @nadoHQ @extendedapp @tread_fi @tradehotstuff @hibachi_xyz @01Exchange @CarbonTerminal @Ostium @pacifica_fi Rule #1 of airdrop farming, learned the hard way: whatever number you have in your head, divide it by 2 or 3. Almost always right 🥲",
+          "id": "2055088856492634222",
+          "url": "https://x.com/wasabu0x/status/2055088856492634222",
+          "views": 358,
+          "likes": 4
+        },
+        {
+          "text": "March 8 plan for a guy without a girlfriend:\n\n• Farming points on @predictdotfun while watching UFC 325 (I’m rooting for Holloway)\n\n• Trading and farming points on @nadoHQ and @variational_io \n\n• Dropping a prediction on the new market on @kash_bot\n\n• stats in OKX Boost\n\n• Hunting good trades on @Polymarket \n\n• Gym session (legs)\n\nJust another productive day in crypto",
+          "id": "2030483917082710455",
+          "url": "https://x.com/wasabu0x/status/2030483917082710455",
+          "views": 225,
+          "likes": 1
+        },
+        {
+          "text": "@nadoHQ great updates, wait 24/7 rwa 🤜🤛",
+          "id": "2057653401274687859",
+          "url": "https://x.com/wasabu0x/status/2057653401274687859",
+          "views": 191,
+          "likes": 1
+        },
+        {
+          "text": "Still plenty to do in crypto\n\nJust dropped my tier list of projects based on quality + real airdrop potential:\n\nS tier\n\n@Polymarket \n@xStocksFi \n\nA tier\n\n@base \n@inkonchain / @nadoHQ \n@Kalshi \n\nB tier\n\n@predictdotfun \n@NousResearch \n\nC tier\n\n@opensea \n\nD tier \n\n@kash_bot https://t.co/CKo8R7SavQ",
+          "id": "2037829098643522034",
+          "url": "https://x.com/wasabu0x/status/2037829098643522034",
+          "views": 189,
+          "likes": 4
+        }
+      ]
+    },
+    {
       "id": "1932851142578601984",
       "name": "Dustin T",
       "handle": "DustinTrade",
@@ -23821,58 +23873,6 @@
           "url": "https://x.com/Feng_btc/status/2009539972265840984",
           "views": 88,
           "likes": 1
-        }
-      ]
-    },
-    {
-      "id": "715540860",
-      "name": "wasabu",
-      "handle": "wasabu0x",
-      "followers": 160,
-      "avatar": "https://pbs.twimg.com/profile_images/2059217985756348416/Gokl-h9B_normal.jpg",
-      "views": 4385,
-      "likes": 44,
-      "posts": 30,
-      "mentions": 30,
-      "cashtag": 0,
-      "keyword": 30,
-      "firstPost": "Sun Mar 08 03:21:05 +0000 2026",
-      "lastPost": "Wed May 27 10:37:22 +0000 2026",
-      "topPosts": [
-        {
-          "text": "Cutting the noise.\n\nThese are the most alpha plays right now (no token yet). Best perps to park your attention and farm airdrop points on:\n\n- Trade[XYZ] @tradexyz (no points)\n- Variational @variational_io \n- Nado @nadoHQ \n- Pacifica @pacifica_fi",
-          "id": "2054790694024384782",
-          "url": "https://x.com/wasabu0x/status/2054790694024384782",
-          "views": 1227,
-          "likes": 5
-        },
-        {
-          "text": "@capy_onchain @variational_io @grvt_io @nadoHQ @extendedapp @tread_fi @tradehotstuff @hibachi_xyz @01Exchange @CarbonTerminal @Ostium @pacifica_fi Rule #1 of airdrop farming, learned the hard way: whatever number you have in your head, divide it by 2 or 3. Almost always right 🥲",
-          "id": "2055088856492634222",
-          "url": "https://x.com/wasabu0x/status/2055088856492634222",
-          "views": 358,
-          "likes": 4
-        },
-        {
-          "text": "March 8 plan for a guy without a girlfriend:\n\n• Farming points on @predictdotfun while watching UFC 325 (I’m rooting for Holloway)\n\n• Trading and farming points on @nadoHQ and @variational_io \n\n• Dropping a prediction on the new market on @kash_bot\n\n• stats in OKX Boost\n\n• Hunting good trades on @Polymarket \n\n• Gym session (legs)\n\nJust another productive day in crypto",
-          "id": "2030483917082710455",
-          "url": "https://x.com/wasabu0x/status/2030483917082710455",
-          "views": 225,
-          "likes": 1
-        },
-        {
-          "text": "@nadoHQ great updates, wait 24/7 rwa 🤜🤛",
-          "id": "2057653401274687859",
-          "url": "https://x.com/wasabu0x/status/2057653401274687859",
-          "views": 191,
-          "likes": 1
-        },
-        {
-          "text": "Still plenty to do in crypto\n\nJust dropped my tier list of projects based on quality + real airdrop potential:\n\nS tier\n\n@Polymarket \n@xStocksFi \n\nA tier\n\n@base \n@inkonchain / @nadoHQ \n@Kalshi \n\nB tier\n\n@predictdotfun \n@NousResearch \n\nC tier\n\n@opensea \n\nD tier \n\n@kash_bot https://t.co/CKo8R7SavQ",
-          "id": "2037829098643522034",
-          "url": "https://x.com/wasabu0x/status/2037829098643522034",
-          "views": 189,
-          "likes": 4
         }
       ]
     },
@@ -31887,6 +31887,58 @@
       ]
     },
     {
+      "id": "1561030626811301888",
+      "name": "ShinyNfts",
+      "handle": "ShinyNfts",
+      "followers": 33229,
+      "avatar": "https://pbs.twimg.com/profile_images/2053734398852296704/4dr9v_S-_normal.jpg",
+      "views": 2676,
+      "likes": 85,
+      "posts": 6,
+      "mentions": 6,
+      "cashtag": 0,
+      "keyword": 6,
+      "firstPost": "Thu Apr 09 07:13:02 +0000 2026",
+      "lastPost": "Thu Jul 23 16:01:43 +0000 2026",
+      "topPosts": [
+        {
+          "text": "Good Evening everyone, \n\nI have an airdrop tier list based on my onchain activities.\n\nI’m not sharing them all here one by one. However, let me give a few examples of what I’ve done.\n\nRight now, I’m earning @nadoHQ points through perp contracts. I’m just getting started and I’m not very experienced with perps, so I want to accumulate points in a controlled manner. I’ll be doing a bit of testing, though not too much. This way, I’m also earning points for @inkonchain \n\nI’m not very successful with perps; in fact, I usually lose money. That’s why I don’t use very large amounts. \n\nWithin the @SuperchainEco ecosystem, I’m actively participating in events for Inkonchain and Soneium. I have high expectations for these.\n\nI’m also holding liquidity on @aave for Layer 2 blockchains like @Optimism and @base within the Superchain ecosystem.\n\nAs for NFTs, the only one that’s caught my attention right now is Quip. I’m waiting for @quipnetwork 's Genesis NFT. I think it holds significant potential ahead of the TGE. It’s a pioneering project in the quantum field. NFTs will play a huge role in the TGE, which is why I’m keeping an eye on Quip as an NFT.\n\nI also join the @arcus_xyz perps waitlist; anyone interested can join via the link. \n\nLink: https://t.co/f80DduyrcD \n\nIn addition to these, there's also River, where I earn points through the Stake system. Right now, I've selected 24X for base:0xda7ad9dea9397cffddae2f8a052b82f1484252b3 staking, and that's where I get my highest voting points. @River4fun X @RiverdotInc \n\nIn addition to that, I use platforms like Uniswap, Velodrome, and Aedrome, as well as Superbridge, with a minimum of one transaction per week and per month.\n\nWhat are you doing in terms of onchain activities and potential earnings? I’m looking for new projects with strong investment potential that I can get involved in.\n\nI should also add this: make sure to research projects thoroughly. There have been a lot of hack news stories lately. I think these are the teams’ own doing, frankly, an outsider couldn’t hack them that easily.\n\nHonestly because of situations like this, I’m no longer keen on adding liquidity. I continue to trade using small balance.\n\nThe most important NFT I have in my wallet right now is Kaito Yapybaras. Kaito is on the rise as a token today. I hope we’ll see NFT back above 1 ETH soon. If someone wants to give me a MAYC as a gift, I’d be happy to accept it.",
+          "id": "2078114852921299083",
+          "url": "https://x.com/ShinyNfts/status/2078114852921299083",
+          "views": 2590,
+          "likes": 82
+        },
+        {
+          "text": "@OnyshchukInvest @inkonchain @nadoHQ no tge",
+          "id": "2042138704140030278",
+          "url": "https://x.com/ShinyNfts/status/2042138704140030278",
+          "views": 29,
+          "likes": 1
+        },
+        {
+          "text": "@nadoHQ 5m$ huge",
+          "id": "2078118001241378837",
+          "url": "https://x.com/ShinyNfts/status/2078118001241378837",
+          "views": 18,
+          "likes": 1
+        },
+        {
+          "text": "@inkonchain @nadoHQ I gave it a try yesterday; I'm going to start using Nado now. Even though it's not really my area of expertise, I'm going to experiment with it a bit to boost my Ink",
+          "id": "2073718290484973962",
+          "url": "https://x.com/ShinyNfts/status/2073718290484973962",
+          "views": 15,
+          "likes": 0
+        },
+        {
+          "text": "@nadoHQ noda growing really super fast, i post some content twice a week and i think to more active and earn more volume soon in app \n\nbest app on ink",
+          "id": "2079489946860093861",
+          "url": "https://x.com/ShinyNfts/status/2079489946860093861",
+          "views": 15,
+          "likes": 1
+        }
+      ]
+    },
+    {
       "id": "1517799389313462272",
       "name": "NongNicelnwza007",
       "handle": "Synthetizz",
@@ -32038,58 +32090,6 @@
           "id": "2010752799576084811",
           "url": "https://x.com/huangyu31085955/status/2010752799576084811",
           "views": 133,
-          "likes": 1
-        }
-      ]
-    },
-    {
-      "id": "1561030626811301888",
-      "name": "ShinyNfts",
-      "handle": "ShinyNfts",
-      "followers": 33133,
-      "avatar": "https://pbs.twimg.com/profile_images/2053734398852296704/4dr9v_S-_normal.jpg",
-      "views": 2667,
-      "likes": 85,
-      "posts": 5,
-      "mentions": 5,
-      "cashtag": 0,
-      "keyword": 5,
-      "firstPost": "Thu Apr 09 07:13:02 +0000 2026",
-      "lastPost": "Tue Jul 21 08:53:33 +0000 2026",
-      "topPosts": [
-        {
-          "text": "Good Evening everyone, \n\nI have an airdrop tier list based on my onchain activities.\n\nI’m not sharing them all here one by one. However, let me give a few examples of what I’ve done.\n\nRight now, I’m earning @nadoHQ points through perp contracts. I’m just getting started and I’m not very experienced with perps, so I want to accumulate points in a controlled manner. I’ll be doing a bit of testing, though not too much. This way, I’m also earning points for @inkonchain \n\nI’m not very successful with perps; in fact, I usually lose money. That’s why I don’t use very large amounts. \n\nWithin the @SuperchainEco ecosystem, I’m actively participating in events for Inkonchain and Soneium. I have high expectations for these.\n\nI’m also holding liquidity on @aave for Layer 2 blockchains like @Optimism and @base within the Superchain ecosystem.\n\nAs for NFTs, the only one that’s caught my attention right now is Quip. I’m waiting for @quipnetwork 's Genesis NFT. I think it holds significant potential ahead of the TGE. It’s a pioneering project in the quantum field. NFTs will play a huge role in the TGE, which is why I’m keeping an eye on Quip as an NFT.\n\nI also join the @arcus_xyz perps waitlist; anyone interested can join via the link. \n\nLink: https://t.co/f80DduyrcD \n\nIn addition to these, there's also River, where I earn points through the Stake system. Right now, I've selected 24X for base:0xda7ad9dea9397cffddae2f8a052b82f1484252b3 staking, and that's where I get my highest voting points. @River4fun X @RiverdotInc \n\nIn addition to that, I use platforms like Uniswap, Velodrome, and Aedrome, as well as Superbridge, with a minimum of one transaction per week and per month.\n\nWhat are you doing in terms of onchain activities and potential earnings? I’m looking for new projects with strong investment potential that I can get involved in.\n\nI should also add this: make sure to research projects thoroughly. There have been a lot of hack news stories lately. I think these are the teams’ own doing, frankly, an outsider couldn’t hack them that easily.\n\nHonestly because of situations like this, I’m no longer keen on adding liquidity. I continue to trade using small balance.\n\nThe most important NFT I have in my wallet right now is Kaito Yapybaras. Kaito is on the rise as a token today. I hope we’ll see NFT back above 1 ETH soon. If someone wants to give me a MAYC as a gift, I’d be happy to accept it.",
-          "id": "2078114852921299083",
-          "url": "https://x.com/ShinyNfts/status/2078114852921299083",
-          "views": 2590,
-          "likes": 82
-        },
-        {
-          "text": "@OnyshchukInvest @inkonchain @nadoHQ no tge",
-          "id": "2042138704140030278",
-          "url": "https://x.com/ShinyNfts/status/2042138704140030278",
-          "views": 29,
-          "likes": 1
-        },
-        {
-          "text": "@nadoHQ 5m$ huge",
-          "id": "2078118001241378837",
-          "url": "https://x.com/ShinyNfts/status/2078118001241378837",
-          "views": 18,
-          "likes": 1
-        },
-        {
-          "text": "@inkonchain @nadoHQ I gave it a try yesterday; I'm going to start using Nado now. Even though it's not really my area of expertise, I'm going to experiment with it a bit to boost my Ink",
-          "id": "2073718290484973962",
-          "url": "https://x.com/ShinyNfts/status/2073718290484973962",
-          "views": 15,
-          "likes": 0
-        },
-        {
-          "text": "@nadoHQ noda growing really super fast, i post some content twice a week and i think to more active and earn more volume soon in app \n\nbest app on ink",
-          "id": "2079489946860093861",
-          "url": "https://x.com/ShinyNfts/status/2079489946860093861",
-          "views": 15,
           "likes": 1
         }
       ]
@@ -188950,6 +188950,58 @@
       ]
     },
     {
+      "id": "1870179374982373376",
+      "name": "Soares_gto",
+      "handle": "soares__gto",
+      "followers": 1049,
+      "avatar": "https://pbs.twimg.com/profile_images/1950966780031021056/J_bn1iA0_normal.jpg",
+      "views": 234,
+      "likes": 4,
+      "posts": 6,
+      "mentions": 6,
+      "cashtag": 0,
+      "keyword": 6,
+      "firstPost": "Tue Dec 30 10:53:33 +0000 2025",
+      "lastPost": "Thu Jul 23 11:38:58 +0000 2026",
+      "topPosts": [
+        {
+          "text": "@nadoHQ invite code ?",
+          "id": "2005955409027190833",
+          "url": "https://x.com/soares__gto/status/2005955409027190833",
+          "views": 85,
+          "likes": 0
+        },
+        {
+          "text": "@nadoHQ @inkonchain code?",
+          "id": "2005956493770666142",
+          "url": "https://x.com/soares__gto/status/2005956493770666142",
+          "views": 59,
+          "likes": 0
+        },
+        {
+          "text": "@nadoHQ Boa👏",
+          "id": "2052775392528728450",
+          "url": "https://x.com/soares__gto/status/2052775392528728450",
+          "views": 33,
+          "likes": 0
+        },
+        {
+          "text": "Racking up xPoints on @nadoHQ 🌪\nRanked #494 last week | #534 all-time https://t.co/u34o4OvgjN",
+          "id": "2080256352367133010",
+          "url": "https://x.com/soares__gto/status/2080256352367133010",
+          "views": 26,
+          "likes": 2
+        },
+        {
+          "text": "@i_r_s8 @nadoHQ I used your code, thank you friends.",
+          "id": "2005957400377888993",
+          "url": "https://x.com/soares__gto/status/2005957400377888993",
+          "views": 20,
+          "likes": 0
+        }
+      ]
+    },
+    {
       "id": "3247516915",
       "name": "Anotherone ⌘ base.eth",
       "handle": "Heritage123K",
@@ -201360,58 +201412,6 @@
       ]
     },
     {
-      "id": "1870179374982373376",
-      "name": "Soares_gto",
-      "handle": "soares__gto",
-      "followers": 1086,
-      "avatar": "https://pbs.twimg.com/profile_images/1950966780031021056/J_bn1iA0_normal.jpg",
-      "views": 208,
-      "likes": 2,
-      "posts": 5,
-      "mentions": 5,
-      "cashtag": 0,
-      "keyword": 5,
-      "firstPost": "Tue Dec 30 10:53:33 +0000 2025",
-      "lastPost": "Fri May 15 01:46:29 +0000 2026",
-      "topPosts": [
-        {
-          "text": "@nadoHQ invite code ?",
-          "id": "2005955409027190833",
-          "url": "https://x.com/soares__gto/status/2005955409027190833",
-          "views": 85,
-          "likes": 0
-        },
-        {
-          "text": "@nadoHQ @inkonchain code?",
-          "id": "2005956493770666142",
-          "url": "https://x.com/soares__gto/status/2005956493770666142",
-          "views": 59,
-          "likes": 0
-        },
-        {
-          "text": "@nadoHQ Boa👏",
-          "id": "2052775392528728450",
-          "url": "https://x.com/soares__gto/status/2052775392528728450",
-          "views": 33,
-          "likes": 0
-        },
-        {
-          "text": "@i_r_s8 @nadoHQ I used your code, thank you friends.",
-          "id": "2005957400377888993",
-          "url": "https://x.com/soares__gto/status/2005957400377888993",
-          "views": 20,
-          "likes": 0
-        },
-        {
-          "text": "@nadoHQ https://t.co/iKT4cyAL3k",
-          "id": "2055102488974352756",
-          "url": "https://x.com/soares__gto/status/2055102488974352756",
-          "views": 11,
-          "likes": 2
-        }
-      ]
-    },
-    {
       "id": "479689729",
       "name": "Trish.eth",
       "handle": "X_Native_",
@@ -202256,6 +202256,51 @@
           "id": "2076287002614600102",
           "url": "https://x.com/0xMasterPo/status/2076287002614600102",
           "views": 19,
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "id": "1042580102712713216",
+      "name": "ARERA",
+      "handle": "ardianreffa",
+      "followers": 139,
+      "avatar": "https://pbs.twimg.com/profile_images/1986450042472046598/jc-P0wH5_normal.jpg",
+      "views": 207,
+      "likes": 3,
+      "posts": 4,
+      "mentions": 4,
+      "cashtag": 0,
+      "keyword": 4,
+      "firstPost": "Thu Jul 09 08:29:38 +0000 2026",
+      "lastPost": "Thu Jul 23 04:11:58 +0000 2026",
+      "topPosts": [
+        {
+          "text": "@xStocksFi @nadoHQ If I just hold stocks in the spot market, do I also get a 25% xPoint multiplier?",
+          "id": "2076643187461177509",
+          "url": "https://x.com/ardianreffa/status/2076643187461177509",
+          "views": 119,
+          "likes": 2
+        },
+        {
+          "text": "@nadoHQ  now has a feature that shows the details of the xPoints we earn from holding xStocks.\n\nA few days ago, I provided feedback asking the Nado team to include a detailed breakdown of xPoints earned from holding xStocks on their platform. It seems my feedback was well-received. Good job, Nado!\n\n@xStocksFi \n#xstocks #tokenizedstocks",
+          "id": "2080143859691200782",
+          "url": "https://x.com/ardianreffa/status/2080143859691200782",
+          "views": 55,
+          "likes": 1
+        },
+        {
+          "text": "I just tried depositing some funds into @nadoHQ  to get the xPoints (@xStocksFi ) boost.\n\nIf you have any technical questions about buying stocks on Nado, just leave a comment.\n\nSource: https://t.co/pKhXYvutbr\nhttps://t.co/SLLMHb7kLX https://t.co/7yrlWmgLjD",
+          "id": "2075135277300146402",
+          "url": "https://x.com/ardianreffa/status/2075135277300146402",
+          "views": 28,
+          "likes": 0
+        },
+        {
+          "text": "@nadoHQ @xStocksFi Join xStocks here : https://t.co/JnsPoTRiH0\n\nJoin Nado here :\nhttps://t.co/eHAjOZG1Z8",
+          "id": "2075135307125751883",
+          "url": "https://x.com/ardianreffa/status/2075135307125751883",
+          "views": 5,
           "likes": 0
         }
       ]
@@ -236625,44 +236670,6 @@
           "id": "2018252582636941434",
           "url": "https://x.com/chinexcongle/status/2018252582636941434",
           "views": 7,
-          "likes": 0
-        }
-      ]
-    },
-    {
-      "id": "1042580102712713216",
-      "name": "ARERA",
-      "handle": "ardianreffa",
-      "followers": 141,
-      "avatar": "https://pbs.twimg.com/profile_images/1986450042472046598/jc-P0wH5_normal.jpg",
-      "views": 152,
-      "likes": 2,
-      "posts": 3,
-      "mentions": 3,
-      "cashtag": 0,
-      "keyword": 3,
-      "firstPost": "Thu Jul 09 08:29:38 +0000 2026",
-      "lastPost": "Mon Jul 13 12:21:32 +0000 2026",
-      "topPosts": [
-        {
-          "text": "@xStocksFi @nadoHQ If I just hold stocks in the spot market, do I also get a 25% xPoint multiplier?",
-          "id": "2076643187461177509",
-          "url": "https://x.com/ardianreffa/status/2076643187461177509",
-          "views": 119,
-          "likes": 2
-        },
-        {
-          "text": "I just tried depositing some funds into @nadoHQ  to get the xPoints (@xStocksFi ) boost.\n\nIf you have any technical questions about buying stocks on Nado, just leave a comment.\n\nSource: https://t.co/pKhXYvutbr\nhttps://t.co/SLLMHb7kLX https://t.co/7yrlWmgLjD",
-          "id": "2075135277300146402",
-          "url": "https://x.com/ardianreffa/status/2075135277300146402",
-          "views": 28,
-          "likes": 0
-        },
-        {
-          "text": "@nadoHQ @xStocksFi Join xStocks here : https://t.co/JnsPoTRiH0\n\nJoin Nado here :\nhttps://t.co/eHAjOZG1Z8",
-          "id": "2075135307125751883",
-          "url": "https://x.com/ardianreffa/status/2075135307125751883",
-          "views": 5,
           "likes": 0
         }
       ]
@@ -531647,6 +531654,30 @@
           "text": "@ShinyNfts @nadoHQ Good evening shiny",
           "id": "2078150864653406631",
           "url": "https://x.com/branovic1i/status/2078150864653406631",
+          "views": 5,
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "id": "1769304821117710336",
+      "name": "MyKriptoJourney",
+      "handle": "Mykriptojourney",
+      "followers": 13,
+      "avatar": "https://pbs.twimg.com/profile_images/1891369069531799552/y1xQN5s2_normal.jpg",
+      "views": 5,
+      "likes": 0,
+      "posts": 1,
+      "mentions": 1,
+      "cashtag": 0,
+      "keyword": 1,
+      "firstPost": "Thu Jul 23 09:25:09 +0000 2026",
+      "lastPost": "Thu Jul 23 09:25:09 +0000 2026",
+      "topPosts": [
+        {
+          "text": "Just hit Breeze Tier on @nadoHQ! 🌪\nRanked #0 last week | #0 all-time",
+          "id": "2080222678024335860",
+          "url": "https://x.com/Mykriptojourney/status/2080222678024335860",
           "views": 5,
           "likes": 0
         }
