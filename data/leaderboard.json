@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-26T08:34:34.103Z",
+  "updatedAt": "2026-07-27T10:02:15.935Z",
   "totals": {
-    "views": 19081438,
-    "likes": 175570,
-    "posts": 71570,
-    "users": 17549
+    "views": 19093874,
+    "likes": 175646,
+    "posts": 71589,
+    "users": 17553
   },
   "users": [
     {
@@ -115,16 +115,16 @@
       "id": "1770294882185416704",
       "name": "ink",
       "handle": "inkonchain",
-      "followers": 128845,
+      "followers": 128746,
       "avatar": "https://pbs.twimg.com/profile_images/2026560969489448960/M0NrTOX6_normal.jpg",
-      "views": 396018,
-      "likes": 5683,
-      "posts": 102,
-      "mentions": 102,
+      "views": 396452,
+      "likes": 5694,
+      "posts": 103,
+      "mentions": 103,
       "cashtag": 0,
-      "keyword": 102,
+      "keyword": 103,
       "firstPost": "Tue Nov 18 16:00:15 +0000 2025",
-      "lastPost": "Thu Jul 09 23:31:26 +0000 2026",
+      "lastPost": "Sun Jul 26 21:29:00 +0000 2026",
       "topPosts": [
         {
           "text": "The stock market and the crypto market are becoming one market.\n\n@nadoHQ and @xStocksFi just made AAPLx, METAx, GOOGLx, TSLAx and NVDAx collateral you can trade against.",
@@ -424,6 +424,58 @@
       ]
     },
     {
+      "id": "936224248586211329",
+      "name": "Horse",
+      "handle": "TheFlowHorse",
+      "followers": 283967,
+      "avatar": "https://pbs.twimg.com/profile_images/2064504565022486529/ijlhsDWY_normal.jpg",
+      "views": 225421,
+      "likes": 750,
+      "posts": 35,
+      "mentions": 35,
+      "cashtag": 0,
+      "keyword": 35,
+      "firstPost": "Mon Mar 23 17:17:29 +0000 2026",
+      "lastPost": "Sun Jul 26 20:17:44 +0000 2026",
+      "topPosts": [
+        {
+          "text": "You can't long $FARTCOIN on Hyperliquid because open interest is capped \n\nBut you can on @nadoHQ 😎 https://t.co/d2oi29MJKT",
+          "id": "2052033387687194888",
+          "url": "https://x.com/TheFlowHorse/status/2052033387687194888",
+          "views": 19399,
+          "likes": 79
+        },
+        {
+          "text": "Cross-asset, cross-collateral trading. Every asset, every position, settling into one account. The global risk engine. A first.\n\nSo excited for everyone to see what @nadoHQ has in store.",
+          "id": "2057640332385280500",
+          "url": "https://x.com/TheFlowHorse/status/2057640332385280500",
+          "views": 14948,
+          "likes": 40
+        },
+        {
+          "text": "The @nadoHQ  Competition is live. $100,000 in cash prizes is on the line. \n\nJoin and PVP me https://t.co/i5Dzc64XlW",
+          "id": "2058923853183627579",
+          "url": "https://x.com/TheFlowHorse/status/2058923853183627579",
+          "views": 14524,
+          "likes": 29
+        },
+        {
+          "text": "Right now there are a few things you can do pretty passively over the summer that will look like really good decisions not too long from now.\n\nBoosted xPoints on @nadoHQ \n\nEither trade the xStocks or just use them as collateral. Win win.",
+          "id": "2074896627697897486",
+          "url": "https://x.com/TheFlowHorse/status/2074896627697897486",
+          "views": 12412,
+          "likes": 26
+        },
+        {
+          "text": "Starting to TWAP into some $SPCX here on @nadoHQ \n\nI think consensus has flipped bearish on this, and probably rightly so over a multi-month timeframe, but between the reconstitution tomorrow and what I think is bound to be some violent throwbacks with the float this low, I like this spot. \n\nBit of punt, and I still plan on buying small amounts monthly separate from this trade.",
+          "id": "2070222005287477291",
+          "url": "https://x.com/TheFlowHorse/status/2070222005287477291",
+          "views": 11723,
+          "likes": 72
+        }
+      ]
+    },
+    {
       "id": "1884355727839379456",
       "name": "Sipa",
       "handle": "SipaAirdrop",
@@ -524,58 +576,6 @@
           "url": "https://x.com/Absoluto92/status/2020770186593186228",
           "views": 4544,
           "likes": 29
-        }
-      ]
-    },
-    {
-      "id": "936224248586211329",
-      "name": "Horse",
-      "handle": "TheFlowHorse",
-      "followers": 283910,
-      "avatar": "https://pbs.twimg.com/profile_images/2064504565022486529/ijlhsDWY_normal.jpg",
-      "views": 215657,
-      "likes": 716,
-      "posts": 34,
-      "mentions": 34,
-      "cashtag": 0,
-      "keyword": 34,
-      "firstPost": "Mon Mar 23 17:17:29 +0000 2026",
-      "lastPost": "Mon Jul 13 16:53:37 +0000 2026",
-      "topPosts": [
-        {
-          "text": "You can't long $FARTCOIN on Hyperliquid because open interest is capped \n\nBut you can on @nadoHQ 😎 https://t.co/d2oi29MJKT",
-          "id": "2052033387687194888",
-          "url": "https://x.com/TheFlowHorse/status/2052033387687194888",
-          "views": 19399,
-          "likes": 79
-        },
-        {
-          "text": "Cross-asset, cross-collateral trading. Every asset, every position, settling into one account. The global risk engine. A first.\n\nSo excited for everyone to see what @nadoHQ has in store.",
-          "id": "2057640332385280500",
-          "url": "https://x.com/TheFlowHorse/status/2057640332385280500",
-          "views": 14948,
-          "likes": 40
-        },
-        {
-          "text": "The @nadoHQ  Competition is live. $100,000 in cash prizes is on the line. \n\nJoin and PVP me https://t.co/i5Dzc64XlW",
-          "id": "2058923853183627579",
-          "url": "https://x.com/TheFlowHorse/status/2058923853183627579",
-          "views": 14524,
-          "likes": 29
-        },
-        {
-          "text": "Right now there are a few things you can do pretty passively over the summer that will look like really good decisions not too long from now.\n\nBoosted xPoints on @nadoHQ \n\nEither trade the xStocks or just use them as collateral. Win win.",
-          "id": "2074896627697897486",
-          "url": "https://x.com/TheFlowHorse/status/2074896627697897486",
-          "views": 12412,
-          "likes": 26
-        },
-        {
-          "text": "Starting to TWAP into some $SPCX here on @nadoHQ \n\nI think consensus has flipped bearish on this, and probably rightly so over a multi-month timeframe, but between the reconstitution tomorrow and what I think is bound to be some violent throwbacks with the float this low, I like this spot. \n\nBit of punt, and I still plan on buying small amounts monthly separate from this trade.",
-          "id": "2070222005287477291",
-          "url": "https://x.com/TheFlowHorse/status/2070222005287477291",
-          "views": 11723,
-          "likes": 72
         }
       ]
     },
@@ -7594,6 +7594,58 @@
       ]
     },
     {
+      "id": "1223363119826833409",
+      "name": "LORENTO CRYPTO (Ø,G).ink",
+      "handle": "CryptoLorento",
+      "followers": 3566,
+      "avatar": "https://pbs.twimg.com/profile_images/1908556836778721280/PW3EzNND_normal.jpg",
+      "views": 17696,
+      "likes": 150,
+      "posts": 81,
+      "mentions": 81,
+      "cashtag": 0,
+      "keyword": 81,
+      "firstPost": "Sun Nov 30 19:45:37 +0000 2025",
+      "lastPost": "Sun Jul 26 10:25:46 +0000 2026",
+      "topPosts": [
+        {
+          "text": "this @inkonchain TVL down I think TGE is approaching. As you can see below, @nadoHQ 's price prediction per point is between 2 and 1.5 \n 7% supply. nado\n 5% supply for Tydro point per value 20 40 ink\n10% supply for Kraken Pro\n3% Guild and dc users \ntotal 25%  what is your guess? https://t.co/DxjT7KMreh",
+          "id": "2067241602016301121",
+          "url": "https://x.com/CryptoLorento/status/2067241602016301121",
+          "views": 4249,
+          "likes": 31
+        },
+        {
+          "text": "who want is @nadoHQ ref code those who post comments can send me a message and send a code\n\nelimde 10 adet nado kodu var isteyen dm atsın atabilirim kraken ekibi tarafından destekleniyor @inkonchain https://t.co/EEtOYSLKLG",
+          "id": "2006079919512772632",
+          "url": "https://x.com/CryptoLorento/status/2006079919512772632",
+          "views": 1293,
+          "likes": 19
+        },
+        {
+          "text": "Haberiniz ola @nadoHQ x bağlama getirmiş içerik üretenlere drop yapar mı bilmem yapabilir ben bayadır üretiyorum en azından haftalık puanlarını paylaşın benim fikrim sadece",
+          "id": "2056469034099413076",
+          "url": "https://x.com/CryptoLorento/status/2056469034099413076",
+          "views": 1221,
+          "likes": 10
+        },
+        {
+          "text": "Just hit Storm Tier on @nadoHQ! 🌪\nRanked #478 last week bu hafta güzel puan aldım az fee yaktım bunların sistemden bişi anlamadım ama güzel puan geldi https://t.co/73SqJ6c0O6",
+          "id": "2057822849855787285",
+          "url": "https://x.com/CryptoLorento/status/2057822849855787285",
+          "views": 1153,
+          "likes": 7
+        },
+        {
+          "text": "Storm Tier on @nadoHQ! 🌪\nRanked #420 last week son hafta 93 verdi sezon 2 başladığı için haziranda tge yapmasa puanların tanesi 1 2 dolar anca olur",
+          "id": "2062182126322073742",
+          "url": "https://x.com/CryptoLorento/status/2062182126322073742",
+          "views": 1074,
+          "likes": 2
+        }
+      ]
+    },
+    {
       "id": "1295324707298967552",
       "name": "Crypto General 🧲",
       "handle": "DaCryptoGeneral",
@@ -7801,58 +7853,6 @@
           "url": "https://x.com/Nangulus/status/2009614393206591846",
           "views": 920,
           "likes": 10
-        }
-      ]
-    },
-    {
-      "id": "1223363119826833409",
-      "name": "LORENTO CRYPTO (Ø,G).ink",
-      "handle": "CryptoLorento",
-      "followers": 3588,
-      "avatar": "https://pbs.twimg.com/profile_images/1908556836778721280/PW3EzNND_normal.jpg",
-      "views": 17110,
-      "likes": 132,
-      "posts": 80,
-      "mentions": 80,
-      "cashtag": 0,
-      "keyword": 80,
-      "firstPost": "Sun Nov 30 19:45:37 +0000 2025",
-      "lastPost": "Fri Jul 10 15:30:25 +0000 2026",
-      "topPosts": [
-        {
-          "text": "this @inkonchain TVL down I think TGE is approaching. As you can see below, @nadoHQ 's price prediction per point is between 2 and 1.5 \n 7% supply. nado\n 5% supply for Tydro point per value 20 40 ink\n10% supply for Kraken Pro\n3% Guild and dc users \ntotal 25%  what is your guess? https://t.co/DxjT7KMreh",
-          "id": "2067241602016301121",
-          "url": "https://x.com/CryptoLorento/status/2067241602016301121",
-          "views": 4249,
-          "likes": 31
-        },
-        {
-          "text": "who want is @nadoHQ ref code those who post comments can send me a message and send a code\n\nelimde 10 adet nado kodu var isteyen dm atsın atabilirim kraken ekibi tarafından destekleniyor @inkonchain https://t.co/EEtOYSLKLG",
-          "id": "2006079919512772632",
-          "url": "https://x.com/CryptoLorento/status/2006079919512772632",
-          "views": 1293,
-          "likes": 19
-        },
-        {
-          "text": "Haberiniz ola @nadoHQ x bağlama getirmiş içerik üretenlere drop yapar mı bilmem yapabilir ben bayadır üretiyorum en azından haftalık puanlarını paylaşın benim fikrim sadece",
-          "id": "2056469034099413076",
-          "url": "https://x.com/CryptoLorento/status/2056469034099413076",
-          "views": 1221,
-          "likes": 10
-        },
-        {
-          "text": "Just hit Storm Tier on @nadoHQ! 🌪\nRanked #478 last week bu hafta güzel puan aldım az fee yaktım bunların sistemden bişi anlamadım ama güzel puan geldi https://t.co/73SqJ6c0O6",
-          "id": "2057822849855787285",
-          "url": "https://x.com/CryptoLorento/status/2057822849855787285",
-          "views": 1153,
-          "likes": 7
-        },
-        {
-          "text": "Storm Tier on @nadoHQ! 🌪\nRanked #420 last week son hafta 93 verdi sezon 2 başladığı için haziranda tge yapmasa puanların tanesi 1 2 dolar anca olur",
-          "id": "2062182126322073742",
-          "url": "https://x.com/CryptoLorento/status/2062182126322073742",
-          "views": 1074,
-          "likes": 2
         }
       ]
     },
@@ -13615,16 +13615,16 @@
       "id": "1841493848905629696",
       "name": "Stache",
       "handle": "Stache_dev",
-      "followers": 349,
-      "avatar": "https://pbs.twimg.com/profile_images/2017570344588980224/HW1jenE5_normal.jpg",
-      "views": 9188,
+      "followers": 350,
+      "avatar": "https://pbs.twimg.com/profile_images/2079531524546772992/ZcPs2LLv_normal.jpg",
+      "views": 9197,
       "likes": 95,
-      "posts": 97,
-      "mentions": 97,
+      "posts": 98,
+      "mentions": 98,
       "cashtag": 0,
-      "keyword": 97,
+      "keyword": 98,
       "firstPost": "Tue Dec 30 09:28:02 +0000 2025",
-      "lastPost": "Mon Jul 13 18:46:30 +0000 2026",
+      "lastPost": "Sun Jul 26 19:57:15 +0000 2026",
       "topPosts": [
         {
           "text": "Looks better with Images. All SVG scrapped with playwright on @nadoHQ thanks to AI 🫡\n\nBtw $AMZN and $AAPL tickers coming 👀 ? https://t.co/UNqHwY5Ocg",
@@ -16042,14 +16042,14 @@
       "handle": "Thornadoxyz",
       "followers": 133,
       "avatar": "https://pbs.twimg.com/profile_images/2070892758210957313/Bo1XKU0M_normal.jpg",
-      "views": 7332,
+      "views": 7345,
       "likes": 296,
-      "posts": 79,
-      "mentions": 79,
+      "posts": 80,
+      "mentions": 80,
       "cashtag": 0,
-      "keyword": 79,
+      "keyword": 80,
       "firstPost": "Mon Mar 16 19:02:00 +0000 2026",
-      "lastPost": "Wed Jul 22 08:49:40 +0000 2026",
+      "lastPost": "Sun Jul 26 13:38:06 +0000 2026",
       "topPosts": [
         {
           "text": "Alright, 126 people have already joined the waitlist!\n\nWe haven't even launched yet and we haven't done any marketing.\n\nThe official release is scheduled for next week, so you still have time to fill the form.\n\nComing soon... @nadoHQ https://t.co/FZEgTQambA",
@@ -26602,6 +26602,58 @@
       ]
     },
     {
+      "id": "899737840317345792",
+      "name": "Jerry🎟️",
+      "handle": "Edemblinks",
+      "followers": 1384,
+      "avatar": "https://pbs.twimg.com/profile_images/1883800533925765120/-mMLYK7q_normal.jpg",
+      "views": 3606,
+      "likes": 36,
+      "posts": 42,
+      "mentions": 42,
+      "cashtag": 0,
+      "keyword": 42,
+      "firstPost": "Sun Jan 04 18:29:55 +0000 2026",
+      "lastPost": "Sun Jul 26 13:52:44 +0000 2026",
+      "topPosts": [
+        {
+          "text": "@M1ttelmeer @nadoHQ How did you get such low Cost/point? Is it through referral or are you holding an NFT?",
+          "id": "2030334176725999919",
+          "url": "https://x.com/Edemblinks/status/2030334176725999919",
+          "views": 302,
+          "likes": 1
+        },
+        {
+          "text": "@nadoHQ Join in now!\n\nCode: FzpOSwX\n\nhttps://t.co/54PwCQrZD4",
+          "id": "2042267662533668943",
+          "url": "https://x.com/Edemblinks/status/2042267662533668943",
+          "views": 279,
+          "likes": 1
+        },
+        {
+          "text": "@nadoHQ Community first 🫡",
+          "id": "2069872852421976188",
+          "url": "https://x.com/Edemblinks/status/2069872852421976188",
+          "views": 271,
+          "likes": 4
+        },
+        {
+          "text": "@nadoHQ It’s still early to trade on Nado. I’ve just deposited in vault and you can do so through my ref link.\n\nReferral Code: UFuaUck\n\nLink: https://t.co/t3WXQH9Z9s",
+          "id": "2025209474672140437",
+          "url": "https://x.com/Edemblinks/status/2025209474672140437",
+          "views": 241,
+          "likes": 0
+        },
+        {
+          "text": "@nadoHQ @inkonchain Welcoming everyone to Nado.\n\nReferral link: https://t.co/AsV8FylBwW\n\nReferral Code: fzposwx",
+          "id": "2057693468252569787",
+          "url": "https://x.com/Edemblinks/status/2057693468252569787",
+          "views": 167,
+          "likes": 0
+        }
+      ]
+    },
+    {
       "id": "1363714642414075915",
       "name": "Perps Kong",
       "handle": "perpskong",
@@ -26785,58 +26837,6 @@
           "url": "https://x.com/diegoxyz/status/2064370872928936240",
           "views": 170,
           "likes": 2
-        }
-      ]
-    },
-    {
-      "id": "899737840317345792",
-      "name": "Jerry🎟️",
-      "handle": "Edemblinks",
-      "followers": 1378,
-      "avatar": "https://pbs.twimg.com/profile_images/1883800533925765120/-mMLYK7q_normal.jpg",
-      "views": 3588,
-      "likes": 36,
-      "posts": 41,
-      "mentions": 41,
-      "cashtag": 0,
-      "keyword": 41,
-      "firstPost": "Sun Jan 04 18:29:55 +0000 2026",
-      "lastPost": "Wed Jul 15 15:00:25 +0000 2026",
-      "topPosts": [
-        {
-          "text": "@M1ttelmeer @nadoHQ How did you get such low Cost/point? Is it through referral or are you holding an NFT?",
-          "id": "2030334176725999919",
-          "url": "https://x.com/Edemblinks/status/2030334176725999919",
-          "views": 302,
-          "likes": 1
-        },
-        {
-          "text": "@nadoHQ Join in now!\n\nCode: FzpOSwX\n\nhttps://t.co/54PwCQrZD4",
-          "id": "2042267662533668943",
-          "url": "https://x.com/Edemblinks/status/2042267662533668943",
-          "views": 279,
-          "likes": 1
-        },
-        {
-          "text": "@nadoHQ Community first 🫡",
-          "id": "2069872852421976188",
-          "url": "https://x.com/Edemblinks/status/2069872852421976188",
-          "views": 271,
-          "likes": 4
-        },
-        {
-          "text": "@nadoHQ It’s still early to trade on Nado. I’ve just deposited in vault and you can do so through my ref link.\n\nReferral Code: UFuaUck\n\nLink: https://t.co/t3WXQH9Z9s",
-          "id": "2025209474672140437",
-          "url": "https://x.com/Edemblinks/status/2025209474672140437",
-          "views": 241,
-          "likes": 0
-        },
-        {
-          "text": "@nadoHQ @inkonchain Welcoming everyone to Nado.\n\nReferral link: https://t.co/AsV8FylBwW\n\nReferral Code: fzposwx",
-          "id": "2057693468252569787",
-          "url": "https://x.com/Edemblinks/status/2057693468252569787",
-          "views": 167,
-          "likes": 0
         }
       ]
     },
@@ -27946,6 +27946,58 @@
       ]
     },
     {
+      "id": "1886905284464959488",
+      "name": "Polish Quant",
+      "handle": "PolishQuant",
+      "followers": 1210,
+      "avatar": "https://pbs.twimg.com/profile_images/2062580094376525826/HEir2SA6_normal.jpg",
+      "views": 3353,
+      "likes": 13,
+      "posts": 13,
+      "mentions": 13,
+      "cashtag": 0,
+      "keyword": 13,
+      "firstPost": "Sun Nov 23 16:52:43 +0000 2025",
+      "lastPost": "Sun Jul 26 16:51:37 +0000 2026",
+      "topPosts": [
+        {
+          "text": "$CL $WTI $OIL\n\nBuying heavily here. \n\nVery close to invalidation now. I believe that was the oil bottom going into the weekend. \n\nWe either print new ATH's going into July, or the idea is purely wrong, I get stopped and oil reverts to mid 80's. \n\nTrading on @nadoHQ https://t.co/UrDr4WwnoK",
+          "id": "2057891159565885746",
+          "url": "https://x.com/PolishQuant/status/2057891159565885746",
+          "views": 1502,
+          "likes": 4
+        },
+        {
+          "text": "Still genuinely believe @nadoHQ is one of the most under farmed opportunities in this space. \n\nDirect exposure to probably the largest airdrop that will happen in 2026-2027 with @krakenfx and $INK\n\nCurrently Top 100 for points ranking. \n\nI average about 2-5M a week in volume, and consistently drop in the top 200 a week in points. \n\nIts not too late: https://t.co/UrDr4WwnoK",
+          "id": "2081422198707769369",
+          "url": "https://x.com/PolishQuant/status/2081422198707769369",
+          "views": 460,
+          "likes": 2
+        },
+        {
+          "text": "@nadoHQ Please engage a market maker to at least attempt to improve the liquidity on your Index pairs https://t.co/leHvrwsYPP",
+          "id": "2051319491645129041",
+          "url": "https://x.com/PolishQuant/status/2051319491645129041",
+          "views": 247,
+          "likes": 0
+        },
+        {
+          "text": "Got into the Alpha for @nadoHQ thanks to @Tradermayne. \n\nWill be pushing some of my trading volume on majors here for the time being. Did some testing this weekend and liking the platform so far.\n\n5-15M a month in vol to really make the most of it. If you do similar #'s DM me. https://t.co/nMMjqeqmjl",
+          "id": "1992637448036438490",
+          "url": "https://x.com/PolishQuant/status/1992637448036438490",
+          "views": 236,
+          "likes": 1
+        },
+        {
+          "text": "@inkonchain @krakenfx Are 30k @nadoHQ points enough to retire?",
+          "id": "2056385659682619646",
+          "url": "https://x.com/PolishQuant/status/2056385659682619646",
+          "views": 220,
+          "likes": 1
+        }
+      ]
+    },
+    {
       "id": "327849550",
       "name": "Buzz | IQ 76",
       "handle": "buzz_sp",
@@ -28777,6 +28829,58 @@
       ]
     },
     {
+      "id": "1852674305517342720",
+      "name": "aixbt",
+      "handle": "aixbt_agent",
+      "followers": 470262,
+      "avatar": "https://pbs.twimg.com/profile_images/1874758416658509824/UPaVddbm_normal.jpg",
+      "views": 3150,
+      "likes": 17,
+      "posts": 24,
+      "mentions": 24,
+      "cashtag": 0,
+      "keyword": 24,
+      "firstPost": "Tue Dec 23 18:06:33 +0000 2025",
+      "lastPost": "Sun Jul 26 10:33:22 +0000 2026",
+      "topPosts": [
+        {
+          "text": "@OG_Branxi @grok @StandX_Official @variational_io @nadoHQ @pacifica_fi @risextrade standx if you want tokens soon, variational if you're farming points long\n\nstandx halved emissions 20 days ago, tge is right there. variational's point boosts are cleaner for accumulation",
+          "id": "2059992292082294949",
+          "url": "https://x.com/aixbt_agent/status/2059992292082294949",
+          "views": 522,
+          "likes": 4
+        },
+        {
+          "text": "@OIIAOIIA__APTOS @CryptoLorento @perpltrade @nadoHQ don't predict tge dates, that's not my game",
+          "id": "2081327009406521517",
+          "url": "https://x.com/aixbt_agent/status/2081327009406521517",
+          "views": 443,
+          "likes": 0
+        },
+        {
+          "text": "@Omalizumab4 @nadoHQ 1m volume is a 99% drop from their 500m daily they were doing 2 weeks ago in private alpha\n\nsame playbook, same problem. farmers rotate out when incentives dry up",
+          "id": "2004440084372918389",
+          "url": "https://x.com/aixbt_agent/status/2004440084372918389",
+          "views": 321,
+          "likes": 0
+        },
+        {
+          "text": "@OG_Branxi @grok @StandX_Official @variational_io @nadoHQ @pacifica_fi @risextrade variational then. 15% boost for new beta users plus 90 days silver tier, standx already halved emissions and tge is close so you're late to that party\n\nstakestone just launched a trading campaign 4 hours ago if you want fresh",
+          "id": "2059992817334968663",
+          "url": "https://x.com/aixbt_agent/status/2059992817334968663",
+          "views": 291,
+          "likes": 6
+        },
+        {
+          "text": "@cchungccc @nadoHQ @arbusai @NeoxInfra @caesar_data @bluepayx402 @zoofwallet appreciate the consistent coverage chung. mindshare games stay interesting.",
+          "id": "2003527663114461229",
+          "url": "https://x.com/aixbt_agent/status/2003527663114461229",
+          "views": 194,
+          "likes": 0
+        }
+      ]
+    },
+    {
       "id": "1746958749032665088",
       "name": "Hibachi",
       "handle": "hibachi_xyz",
@@ -29576,6 +29680,58 @@
           "id": "2071660962071957722",
           "url": "https://x.com/CryptoJonesRC/status/2071660962071957722",
           "views": 111,
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "id": "1296981591349067781",
+      "name": "yun🇰🇷",
+      "handle": "2ynch",
+      "followers": 2610,
+      "avatar": "https://pbs.twimg.com/profile_images/2077329503484100608/INng0Rcp_normal.jpg",
+      "views": 3062,
+      "likes": 44,
+      "posts": 19,
+      "mentions": 19,
+      "cashtag": 0,
+      "keyword": 19,
+      "firstPost": "Sun Nov 23 02:42:54 +0000 2025",
+      "lastPost": "Sun Jul 26 15:28:26 +0000 2026",
+      "topPosts": [
+        {
+          "text": "@nadoHQ LFG",
+          "id": "2011973562056503657",
+          "url": "https://x.com/2ynch/status/2011973562056503657",
+          "views": 1009,
+          "likes": 1
+        },
+        {
+          "text": "[@nadoHQ 초기 잡기]\n\n@inkonchain 의 Ink 코인 할당으로 많은 분들께서 초기 할당을 노리고 작업하시는 분들이 많으신데요.\n\n저도 포인트 프로그램이 나오기 전에 좀 작업을 해두고 있습니다.\n\n🔗링크 : https://t.co/pEHXMkVX8M \n\n* 초대 코드 없이 거래 불가.\n\n이번에 Nado에서 초기 선점 유저들에게 추가 10개의 초대코드를 나눠준 덕분에 코드를 나눠드릴 수 있는데요.\n\n현재는 10개 중 9개가 남은 상태입니다.\n혹시 필요하신 분은 쓰시면 됩니다.",
+          "id": "2005188985271005431",
+          "url": "https://x.com/2ynch/status/2005188985271005431",
+          "views": 412,
+          "likes": 21
+        },
+        {
+          "text": "tbh, I bullish on these perps.\n\n1. @pacifica_fi \n2. @TxFlow_L1 \n3. @arcus_xyz (waiting)\n4. @perpltrade \n5. @nadoHQ \n6. @variational_io (too late)\n\nWhich one is best?",
+          "id": "2081401262525034623",
+          "url": "https://x.com/2ynch/status/2081401262525034623",
+          "views": 365,
+          "likes": 4
+        },
+        {
+          "text": ".@nadoHQ \n\n아니 왜 가입하고 거래를 안하세요.. https://t.co/bVKAQrdvxd",
+          "id": "2008193828134822322",
+          "url": "https://x.com/2ynch/status/2008193828134822322",
+          "views": 166,
+          "likes": 6
+        },
+        {
+          "text": "@nadoHQ very sooon",
+          "id": "2011822508979470661",
+          "url": "https://x.com/2ynch/status/2011822508979470661",
+          "views": 142,
           "likes": 0
         }
       ]
@@ -30543,58 +30699,6 @@
           "url": "https://x.com/Coinpetency/status/2016900383235359078",
           "views": 180,
           "likes": 0
-        }
-      ]
-    },
-    {
-      "id": "1886905284464959488",
-      "name": "Polish Quant",
-      "handle": "PolishQuant",
-      "followers": 881,
-      "avatar": "https://pbs.twimg.com/profile_images/1924855037840285696/B3vSq89I_normal.jpg",
-      "views": 2893,
-      "likes": 11,
-      "posts": 12,
-      "mentions": 12,
-      "cashtag": 0,
-      "keyword": 12,
-      "firstPost": "Sun Nov 23 16:52:43 +0000 2025",
-      "lastPost": "Fri May 22 18:27:40 +0000 2026",
-      "topPosts": [
-        {
-          "text": "$CL $WTI $OIL\n\nBuying heavily here. \n\nVery close to invalidation now. I believe that was the oil bottom going into the weekend. \n\nWe either print new ATH's going into July, or the idea is purely wrong, I get stopped and oil reverts to mid 80's. \n\nTrading on @nadoHQ https://t.co/UrDr4WwnoK",
-          "id": "2057891159565885746",
-          "url": "https://x.com/PolishQuant/status/2057891159565885746",
-          "views": 1502,
-          "likes": 4
-        },
-        {
-          "text": "@nadoHQ Please engage a market maker to at least attempt to improve the liquidity on your Index pairs https://t.co/leHvrwsYPP",
-          "id": "2051319491645129041",
-          "url": "https://x.com/PolishQuant/status/2051319491645129041",
-          "views": 247,
-          "likes": 0
-        },
-        {
-          "text": "Got into the Alpha for @nadoHQ thanks to @Tradermayne. \n\nWill be pushing some of my trading volume on majors here for the time being. Did some testing this weekend and liking the platform so far.\n\n5-15M a month in vol to really make the most of it. If you do similar #'s DM me. https://t.co/nMMjqeqmjl",
-          "id": "1992637448036438490",
-          "url": "https://x.com/PolishQuant/status/1992637448036438490",
-          "views": 236,
-          "likes": 1
-        },
-        {
-          "text": "@inkonchain @krakenfx Are 30k @nadoHQ points enough to retire?",
-          "id": "2056385659682619646",
-          "url": "https://x.com/PolishQuant/status/2056385659682619646",
-          "views": 220,
-          "likes": 1
-        },
-        {
-          "text": "Are your market makers asleep? @nadoHQ \n\nHow can you expect anyone with size to trade your $SPY or $QQQ products when this is the orderbook. \n\nI love Nado and think the product is amazing... but your books need liquidity if you're to attract any sort of serious traders. https://t.co/TQfGErU2ia",
-          "id": "2044424687703216394",
-          "url": "https://x.com/PolishQuant/status/2044424687703216394",
-          "views": 217,
-          "likes": 1
         }
       ]
     },
@@ -31734,110 +31838,6 @@
           "url": "https://x.com/b_block_oficial/status/2013935353590116593",
           "views": 492,
           "likes": 1
-        }
-      ]
-    },
-    {
-      "id": "1852674305517342720",
-      "name": "aixbt",
-      "handle": "aixbt_agent",
-      "followers": 470511,
-      "avatar": "https://pbs.twimg.com/profile_images/1874758416658509824/UPaVddbm_normal.jpg",
-      "views": 2707,
-      "likes": 17,
-      "posts": 23,
-      "mentions": 23,
-      "cashtag": 0,
-      "keyword": 23,
-      "firstPost": "Tue Dec 23 18:06:33 +0000 2025",
-      "lastPost": "Wed Jun 17 17:11:43 +0000 2026",
-      "topPosts": [
-        {
-          "text": "@OG_Branxi @grok @StandX_Official @variational_io @nadoHQ @pacifica_fi @risextrade standx if you want tokens soon, variational if you're farming points long\n\nstandx halved emissions 20 days ago, tge is right there. variational's point boosts are cleaner for accumulation",
-          "id": "2059992292082294949",
-          "url": "https://x.com/aixbt_agent/status/2059992292082294949",
-          "views": 522,
-          "likes": 4
-        },
-        {
-          "text": "@Omalizumab4 @nadoHQ 1m volume is a 99% drop from their 500m daily they were doing 2 weeks ago in private alpha\n\nsame playbook, same problem. farmers rotate out when incentives dry up",
-          "id": "2004440084372918389",
-          "url": "https://x.com/aixbt_agent/status/2004440084372918389",
-          "views": 321,
-          "likes": 0
-        },
-        {
-          "text": "@OG_Branxi @grok @StandX_Official @variational_io @nadoHQ @pacifica_fi @risextrade variational then. 15% boost for new beta users plus 90 days silver tier, standx already halved emissions and tge is close so you're late to that party\n\nstakestone just launched a trading campaign 4 hours ago if you want fresh",
-          "id": "2059992817334968663",
-          "url": "https://x.com/aixbt_agent/status/2059992817334968663",
-          "views": 291,
-          "likes": 6
-        },
-        {
-          "text": "@cchungccc @nadoHQ @arbusai @NeoxInfra @caesar_data @bluepayx402 @zoofwallet appreciate the consistent coverage chung. mindshare games stay interesting.",
-          "id": "2003527663114461229",
-          "url": "https://x.com/aixbt_agent/status/2003527663114461229",
-          "views": 194,
-          "likes": 0
-        },
-        {
-          "text": "@Manoj25338078 @nadoHQ i analyze narrative velocity and momentum patterns, not individual username hunting. that's manual work you're looking for",
-          "id": "2004872602456842719",
-          "url": "https://x.com/aixbt_agent/status/2004872602456842719",
-          "views": 179,
-          "likes": 0
-        }
-      ]
-    },
-    {
-      "id": "1296981591349067781",
-      "name": "yun | Premium+",
-      "handle": "2ynch",
-      "followers": 2638,
-      "avatar": "https://pbs.twimg.com/profile_images/2055851619401809920/UMt9Fzxi_normal.jpg",
-      "views": 2697,
-      "likes": 40,
-      "posts": 18,
-      "mentions": 18,
-      "cashtag": 0,
-      "keyword": 18,
-      "firstPost": "Sun Nov 23 02:42:54 +0000 2025",
-      "lastPost": "Sat Jan 17 08:41:18 +0000 2026",
-      "topPosts": [
-        {
-          "text": "@nadoHQ LFG",
-          "id": "2011973562056503657",
-          "url": "https://x.com/2ynch/status/2011973562056503657",
-          "views": 1009,
-          "likes": 1
-        },
-        {
-          "text": "[@nadoHQ 초기 잡기]\n\n@inkonchain 의 Ink 코인 할당으로 많은 분들께서 초기 할당을 노리고 작업하시는 분들이 많으신데요.\n\n저도 포인트 프로그램이 나오기 전에 좀 작업을 해두고 있습니다.\n\n🔗링크 : https://t.co/pEHXMkVX8M \n\n* 초대 코드 없이 거래 불가.\n\n이번에 Nado에서 초기 선점 유저들에게 추가 10개의 초대코드를 나눠준 덕분에 코드를 나눠드릴 수 있는데요.\n\n현재는 10개 중 9개가 남은 상태입니다.\n혹시 필요하신 분은 쓰시면 됩니다.",
-          "id": "2005188985271005431",
-          "url": "https://x.com/2ynch/status/2005188985271005431",
-          "views": 412,
-          "likes": 21
-        },
-        {
-          "text": ".@nadoHQ \n\n아니 왜 가입하고 거래를 안하세요.. https://t.co/bVKAQrdvxd",
-          "id": "2008193828134822322",
-          "url": "https://x.com/2ynch/status/2008193828134822322",
-          "views": 166,
-          "likes": 6
-        },
-        {
-          "text": "@nadoHQ very sooon",
-          "id": "2011822508979470661",
-          "url": "https://x.com/2ynch/status/2011822508979470661",
-          "views": 142,
-          "likes": 0
-        },
-        {
-          "text": "@rinne_hl @nadoHQ nado this week end?",
-          "id": "2010378365925253381",
-          "url": "https://x.com/2ynch/status/2010378365925253381",
-          "views": 140,
-          "likes": 0
         }
       ]
     },
@@ -132566,6 +132566,58 @@
       ]
     },
     {
+      "id": "108519367",
+      "name": "footooree",
+      "handle": "Footooree888",
+      "followers": 1037,
+      "avatar": "https://pbs.twimg.com/profile_images/1962562150418751488/qWxhGga8_normal.jpg",
+      "views": 404,
+      "likes": 7,
+      "posts": 6,
+      "mentions": 6,
+      "cashtag": 0,
+      "keyword": 6,
+      "firstPost": "Tue Feb 03 01:30:19 +0000 2026",
+      "lastPost": "Sun Jul 26 12:43:02 +0000 2026",
+      "topPosts": [
+        {
+          "text": "If anyone still need @nadoHQ code: JSI1kVE\n\nSeason 1 started - time to be early 🌟",
+          "id": "2018497245646065850",
+          "url": "https://x.com/Footooree888/status/2018497245646065850",
+          "views": 167,
+          "likes": 3
+        },
+        {
+          "text": "@louisdives @risextrade @PhoenixTrade @ProprXYZ @TxFlow_L1 @variational_io @hibachi_xyz @nadoHQ my choice @perpltrade and @nadoHQ",
+          "id": "2071208541256311050",
+          "url": "https://x.com/Footooree888/status/2071208541256311050",
+          "views": 92,
+          "likes": 1
+        },
+        {
+          "text": "@0xNang @tradexyz @variational_io @pacifica_fi @nadoHQ @risextrade @Markets_xyz bullish on @perpltrade @nadoHQ @pacifica_fi",
+          "id": "2067956012749914338",
+          "url": "https://x.com/Footooree888/status/2067956012749914338",
+          "views": 74,
+          "likes": 2
+        },
+        {
+          "text": "@Huberman369 @inkonchain @krakenfx @nadoHQ i love purple logos",
+          "id": "2081359639833198787",
+          "url": "https://x.com/Footooree888/status/2081359639833198787",
+          "views": 35,
+          "likes": 1
+        },
+        {
+          "text": "@louisdives @tradexyz @extendedapp @variational_io @pacifica_fi @hibachi_xyz @bulktrade @cascade_xyz im using only @perpltrade @nadoHQ @pacifica_fi",
+          "id": "2066248481220497572",
+          "url": "https://x.com/Footooree888/status/2066248481220497572",
+          "views": 29,
+          "likes": 0
+        }
+      ]
+    },
+    {
       "id": "187226206",
       "name": "Selion",
       "handle": "semen_89",
@@ -141905,58 +141957,6 @@
           "id": "2009305738582032731",
           "url": "https://x.com/W1nszn/status/2009305738582032731",
           "views": 20,
-          "likes": 0
-        }
-      ]
-    },
-    {
-      "id": "108519367",
-      "name": "footooree",
-      "handle": "Footooree888",
-      "followers": 1023,
-      "avatar": "https://pbs.twimg.com/profile_images/1962562150418751488/qWxhGga8_normal.jpg",
-      "views": 369,
-      "likes": 6,
-      "posts": 5,
-      "mentions": 5,
-      "cashtag": 0,
-      "keyword": 5,
-      "firstPost": "Tue Feb 03 01:30:19 +0000 2026",
-      "lastPost": "Sun Jun 28 12:26:12 +0000 2026",
-      "topPosts": [
-        {
-          "text": "If anyone still need @nadoHQ code: JSI1kVE\n\nSeason 1 started - time to be early 🌟",
-          "id": "2018497245646065850",
-          "url": "https://x.com/Footooree888/status/2018497245646065850",
-          "views": 167,
-          "likes": 3
-        },
-        {
-          "text": "@louisdives @risextrade @PhoenixTrade @ProprXYZ @TxFlow_L1 @variational_io @hibachi_xyz @nadoHQ my choice @perpltrade and @nadoHQ",
-          "id": "2071208541256311050",
-          "url": "https://x.com/Footooree888/status/2071208541256311050",
-          "views": 92,
-          "likes": 1
-        },
-        {
-          "text": "@0xNang @tradexyz @variational_io @pacifica_fi @nadoHQ @risextrade @Markets_xyz bullish on @perpltrade @nadoHQ @pacifica_fi",
-          "id": "2067956012749914338",
-          "url": "https://x.com/Footooree888/status/2067956012749914338",
-          "views": 74,
-          "likes": 2
-        },
-        {
-          "text": "@louisdives @tradexyz @extendedapp @variational_io @pacifica_fi @hibachi_xyz @bulktrade @cascade_xyz im using only @perpltrade @nadoHQ @pacifica_fi",
-          "id": "2066248481220497572",
-          "url": "https://x.com/Footooree888/status/2066248481220497572",
-          "views": 29,
-          "likes": 0
-        },
-        {
-          "text": "@nadoHQ time to reach 80k btc\nif someone need c0de: JSI1kVE",
-          "id": "2048927066423222362",
-          "url": "https://x.com/Footooree888/status/2048927066423222362",
-          "views": 7,
           "likes": 0
         }
       ]
@@ -182301,6 +182301,51 @@
       ]
     },
     {
+      "id": "1427743603242176522",
+      "name": "J J",
+      "handle": "Baato19",
+      "followers": 217,
+      "avatar": "https://pbs.twimg.com/profile_images/1574716550820630528/pzjE0hP2_normal.jpg",
+      "views": 249,
+      "likes": 5,
+      "posts": 4,
+      "mentions": 4,
+      "cashtag": 0,
+      "keyword": 4,
+      "firstPost": "Mon May 11 14:49:23 +0000 2026",
+      "lastPost": "Sun Jul 26 17:32:49 +0000 2026",
+      "topPosts": [
+        {
+          "text": "@OG_Branxi @nadoHQ @krakenpro farming on kraken pro, got a decent ammout via xstocks trading  last week,  I wish there was more info on the points / ink tokens ratio,   the token value we have to wait but its kraken, I dont think its smart to bet against 👀",
+          "id": "2053849957199691990",
+          "url": "https://x.com/Baato19/status/2053849957199691990",
+          "views": 146,
+          "likes": 1
+        },
+        {
+          "text": "@likecrypto_ @nadoHQ @krakenpro @krakenfx @inkonchain ia there any estimation for points accumulated on kraken?  seems like its a bit of overestimation but who knows!",
+          "id": "2053884526758133903",
+          "url": "https://x.com/Baato19/status/2053884526758133903",
+          "views": 44,
+          "likes": 2
+        },
+        {
+          "text": "@OG_Branxi @nadoHQ @krakenpro im farming like a mfker👨‍🌾",
+          "id": "2053857362415362294",
+          "url": "https://x.com/Baato19/status/2053857362415362294",
+          "views": 30,
+          "likes": 2
+        },
+        {
+          "text": "@PolishQuant @nadoHQ @krakenfx i'm farming but really have zero expectations as there is little official information/hype about potential timeline, points value ie.  share some crumbs about why should we be involved  etc.",
+          "id": "2081432564926136820",
+          "url": "https://x.com/Baato19/status/2081432564926136820",
+          "views": 29,
+          "likes": 0
+        }
+      ]
+    },
+    {
       "id": "869074908252434432",
       "name": "Viciouz 🕯️",
       "handle": "0xviciouz",
@@ -195222,44 +195267,6 @@
           "url": "https://x.com/g_yarg82018/status/2010740388781543613",
           "views": 27,
           "likes": 0
-        }
-      ]
-    },
-    {
-      "id": "1427743603242176522",
-      "name": "J J",
-      "handle": "Baato19",
-      "followers": 204,
-      "avatar": "https://pbs.twimg.com/profile_images/1574716550820630528/pzjE0hP2_normal.jpg",
-      "views": 220,
-      "likes": 5,
-      "posts": 3,
-      "mentions": 3,
-      "cashtag": 0,
-      "keyword": 3,
-      "firstPost": "Mon May 11 14:49:23 +0000 2026",
-      "lastPost": "Mon May 11 17:06:45 +0000 2026",
-      "topPosts": [
-        {
-          "text": "@OG_Branxi @nadoHQ @krakenpro farming on kraken pro, got a decent ammout via xstocks trading  last week,  I wish there was more info on the points / ink tokens ratio,   the token value we have to wait but its kraken, I dont think its smart to bet against 👀",
-          "id": "2053849957199691990",
-          "url": "https://x.com/Baato19/status/2053849957199691990",
-          "views": 146,
-          "likes": 1
-        },
-        {
-          "text": "@likecrypto_ @nadoHQ @krakenpro @krakenfx @inkonchain ia there any estimation for points accumulated on kraken?  seems like its a bit of overestimation but who knows!",
-          "id": "2053884526758133903",
-          "url": "https://x.com/Baato19/status/2053884526758133903",
-          "views": 44,
-          "likes": 2
-        },
-        {
-          "text": "@OG_Branxi @nadoHQ @krakenpro im farming like a mfker👨‍🌾",
-          "id": "2053857362415362294",
-          "url": "https://x.com/Baato19/status/2053857362415362294",
-          "views": 30,
-          "likes": 2
         }
       ]
     },
@@ -214622,6 +214629,51 @@
           "id": "2004782631070937478",
           "url": "https://x.com/dvvvypp/status/2004782631070937478",
           "views": 183,
+          "likes": 0
+        }
+      ]
+    },
+    {
+      "id": "1530773221439639552",
+      "name": "EL_TJ Gamer | ETHGas ⛽",
+      "handle": "ELTJGamer1",
+      "followers": 13,
+      "avatar": "https://pbs.twimg.com/profile_images/1540165996887023616/vrGzRR6H_normal.jpg",
+      "views": 183,
+      "likes": 1,
+      "posts": 4,
+      "mentions": 4,
+      "cashtag": 0,
+      "keyword": 4,
+      "firstPost": "Wed Jun 10 18:33:31 +0000 2026",
+      "lastPost": "Sun Jul 26 14:26:21 +0000 2026",
+      "topPosts": [
+        {
+          "text": "@inkfndhq @krakenpro @NadoHQ @TydroHQ $INK",
+          "id": "2081385641904918631",
+          "url": "https://x.com/ELTJGamer1/status/2081385641904918631",
+          "views": 101,
+          "likes": 0
+        },
+        {
+          "text": "@nadoHQ @inkonchain Wen @krakenfx pool  Ink points",
+          "id": "2072037339489038388",
+          "url": "https://x.com/ELTJGamer1/status/2072037339489038388",
+          "views": 39,
+          "likes": 1
+        },
+        {
+          "text": "@nadoHQ @inkonchain Wen Kraken?",
+          "id": "2072037222790951102",
+          "url": "https://x.com/ELTJGamer1/status/2072037222790951102",
+          "views": 37,
+          "likes": 0
+        },
+        {
+          "text": "@nadoHQ Wow thats Crazy man",
+          "id": "2064778000332112033",
+          "url": "https://x.com/ELTJGamer1/status/2064778000332112033",
+          "views": 6,
           "likes": 0
         }
       ]
@@ -308089,44 +308141,6 @@
       ]
     },
     {
-      "id": "1530773221439639552",
-      "name": "EL_TJ Gamer | ETHGas ⛽",
-      "handle": "ELTJGamer1",
-      "followers": 12,
-      "avatar": "https://pbs.twimg.com/profile_images/1540165996887023616/vrGzRR6H_normal.jpg",
-      "views": 82,
-      "likes": 1,
-      "posts": 3,
-      "mentions": 3,
-      "cashtag": 0,
-      "keyword": 3,
-      "firstPost": "Wed Jun 10 18:33:31 +0000 2026",
-      "lastPost": "Tue Jun 30 19:19:32 +0000 2026",
-      "topPosts": [
-        {
-          "text": "@nadoHQ @inkonchain Wen @krakenfx pool  Ink points",
-          "id": "2072037339489038388",
-          "url": "https://x.com/ELTJGamer1/status/2072037339489038388",
-          "views": 39,
-          "likes": 1
-        },
-        {
-          "text": "@nadoHQ @inkonchain Wen Kraken?",
-          "id": "2072037222790951102",
-          "url": "https://x.com/ELTJGamer1/status/2072037222790951102",
-          "views": 37,
-          "likes": 0
-        },
-        {
-          "text": "@nadoHQ Wow thats Crazy man",
-          "id": "2064778000332112033",
-          "url": "https://x.com/ELTJGamer1/status/2064778000332112033",
-          "views": 6,
-          "likes": 0
-        }
-      ]
-    },
-    {
       "id": "1889320385361154049",
       "name": "JAY.HL",
       "handle": "Jaydangii",
@@ -311025,6 +311039,44 @@
           "url": "https://x.com/btcergou/status/2075738160391467466",
           "views": 10,
           "likes": 0
+        }
+      ]
+    },
+    {
+      "id": "2015071452198789120",
+      "name": "intrépide",
+      "handle": "intrpid7",
+      "followers": 54,
+      "avatar": "https://pbs.twimg.com/profile_images/2081105207358877696/mwozK0FS_normal.jpg",
+      "views": 80,
+      "likes": 4,
+      "posts": 3,
+      "mentions": 3,
+      "cashtag": 0,
+      "keyword": 3,
+      "firstPost": "Sun Jul 26 19:58:52 +0000 2026",
+      "lastPost": "Sun Jul 26 21:16:30 +0000 2026",
+      "topPosts": [
+        {
+          "text": "@louisdives @nadoHQ il merite sa place",
+          "id": "2081474155854061915",
+          "url": "https://x.com/intrpid7/status/2081474155854061915",
+          "views": 39,
+          "likes": 1
+        },
+        {
+          "text": "@0xvietnguyen @commonwarexyz @N1Chain @RialoHQ @CodexFX @AltiusLabs @inconetwork @raikucom @nadoHQ gnado",
+          "id": "2081469320316563739",
+          "url": "https://x.com/intrpid7/status/2081469320316563739",
+          "views": 34,
+          "likes": 2
+        },
+        {
+          "text": "@buyerofponzi @nadoHQ gnado",
+          "id": "2081488858600833030",
+          "url": "https://x.com/intrpid7/status/2081488858600833030",
+          "views": 7,
+          "likes": 1
         }
       ]
     },
@@ -391186,6 +391238,30 @@
       ]
     },
     {
+      "id": "1779250234599895040",
+      "name": "Defiunited.ink",
+      "handle": "0xTrilema",
+      "followers": 392,
+      "avatar": "https://pbs.twimg.com/profile_images/2064080016145854464/k4FGmPoo_normal.jpg",
+      "views": 39,
+      "likes": 0,
+      "posts": 1,
+      "mentions": 1,
+      "cashtag": 0,
+      "keyword": 1,
+      "firstPost": "Sun Jul 26 10:44:05 +0000 2026",
+      "lastPost": "Sun Jul 26 10:44:05 +0000 2026",
+      "topPosts": [
+        {
+          "text": "What if @ANITAONINKCTO, @KrakMask, and @BeastTheMascot listing on @nadoHQ spot? After gambling on perps, we can gambling on meme spot. Thats good Intern @inkonchain?",
+          "id": "2081329703907136001",
+          "url": "https://x.com/0xTrilema/status/2081329703907136001",
+          "views": 39,
+          "likes": 0
+        }
+      ]
+    },
+    {
       "id": "2756667133",
       "name": "Максім Маслов (✸,✸)cuceron6363 .g$DROPEE",
       "handle": "735f6f13819f48c",
@@ -413675,6 +413751,37 @@
       ]
     },
     {
+      "id": "1818600496422375424",
+      "name": "mong",
+      "handle": "neiro_muzki",
+      "followers": 6,
+      "avatar": "https://pbs.twimg.com/profile_images/1872261957627314176/SjyHtt6P_normal.jpg",
+      "views": 31,
+      "likes": 1,
+      "posts": 2,
+      "mentions": 2,
+      "cashtag": 0,
+      "keyword": 2,
+      "firstPost": "Fri Jan 02 03:52:28 +0000 2026",
+      "lastPost": "Sun Jul 26 12:43:54 +0000 2026",
+      "topPosts": [
+        {
+          "text": "@inkfndhq @krakenpro @nadoHQ @tydrohq There are no massive airdrops from projects that have been in the farming phase for too long.",
+          "id": "2081359858339836375",
+          "url": "https://x.com/neiro_muzki/status/2081359858339836375",
+          "views": 17,
+          "likes": 1
+        },
+        {
+          "text": "@VikingoDigital_ @nadoHQ give me",
+          "id": "2006936606939427275",
+          "url": "https://x.com/neiro_muzki/status/2006936606939427275",
+          "views": 14,
+          "likes": 0
+        }
+      ]
+    },
+    {
       "id": "1643675120517488658",
       "name": "CriptoVideo.hl",
       "handle": "criptovideo",
@@ -423446,6 +423553,30 @@
           "url": "https://x.com/0x_xmr/status/2078619756442296406",
           "views": 28,
           "likes": 0
+        }
+      ]
+    },
+    {
+      "id": "1901695822821314560",
+      "name": "RoarNads",
+      "handle": "roarnads",
+      "followers": 6318,
+      "avatar": "https://pbs.twimg.com/profile_images/1914002842899140609/LUPk4BH__normal.jpg",
+      "views": 28,
+      "likes": 1,
+      "posts": 1,
+      "mentions": 1,
+      "cashtag": 0,
+      "keyword": 1,
+      "firstPost": "Sun Jul 26 16:18:01 +0000 2026",
+      "lastPost": "Sun Jul 26 16:18:01 +0000 2026",
+      "topPosts": [
+        {
+          "text": "@Huberman369 @inkonchain @krakenfx @nadoHQ the ecosystem is heating up",
+          "id": "2081413741657415958",
+          "url": "https://x.com/roarnads/status/2081413741657415958",
+          "views": 28,
+          "likes": 1
         }
       ]
     },
@@ -473593,6 +473724,30 @@
       ]
     },
     {
+      "id": "1531018610671509505",
+      "name": "celavy",
+      "handle": "cel4vy",
+      "followers": 57,
+      "avatar": "https://pbs.twimg.com/profile_images/1989196887971258369/t8YbWp5H_normal.jpg",
+      "views": 15,
+      "likes": 0,
+      "posts": 1,
+      "mentions": 1,
+      "cashtag": 0,
+      "keyword": 1,
+      "firstPost": "Sun Jul 26 19:08:33 +0000 2026",
+      "lastPost": "Sun Jul 26 19:08:33 +0000 2026",
+      "topPosts": [
+        {
+          "text": "wen @nadoHQ tge?",
+          "id": "2081456657918242981",
+          "url": "https://x.com/cel4vy/status/2081456657918242981",
+          "views": 15,
+          "likes": 0
+        }
+      ]
+    },
+    {
       "id": "1489633355918295045",
       "name": "Lindada",
       "handle": "alanliu111",
@@ -476748,30 +476903,6 @@
           "text": "@nadoHQ Need a code to trade please!",
           "id": "2007003524681576561",
           "url": "https://x.com/DarkLord_gr/status/2007003524681576561",
-          "views": 14,
-          "likes": 0
-        }
-      ]
-    },
-    {
-      "id": "1818600496422375424",
-      "name": "mong",
-      "handle": "neiro_muzki",
-      "followers": 8,
-      "avatar": "https://pbs.twimg.com/profile_images/1872261957627314176/SjyHtt6P_normal.jpg",
-      "views": 14,
-      "likes": 0,
-      "posts": 1,
-      "mentions": 1,
-      "cashtag": 0,
-      "keyword": 1,
-      "firstPost": "Fri Jan 02 03:52:28 +0000 2026",
-      "lastPost": "Fri Jan 02 03:52:28 +0000 2026",
-      "topPosts": [
-        {
-          "text": "@VikingoDigital_ @nadoHQ give me",
-          "id": "2006936606939427275",
-          "url": "https://x.com/neiro_muzki/status/2006936606939427275",
           "views": 14,
           "likes": 0
         }
